@@ -38,7 +38,7 @@ const Header = () => {
     return (
         <>  
         <div style={flex}>
-            <a href="http://localhost:8000"><img src={logo} alt="logo"/></a>
+            <a href="https://borderlandsgrowth.netlify.app/"><img src={logo} alt="logo"/></a>
             <div onClick={()=>{setMenuToggle(x=>!x)}}>
                 <FaBars style={blue}/>
             </div>
@@ -47,11 +47,11 @@ const Header = () => {
             menuToggle && 
             <div>
                 <ul style={noindent}>
-                    <li style={list}><a style={textDeco} href="http://localhost:8000/About-the-Deal" target="">About the Deal<i></i></a></li>
-                    <li style={list}><a style={textDeco} href="http://localhost:8000/Projects-Programmes" target="">Projects &amp; Programmes<i></i></a></li>
-                    <li style={list}><a style={textDeco} href="http://localhost:8000/News" target="">News<i></i></a></li>
-                    <li style={list}><a style={textDeco} href="http://localhost:8000/Your-Borderlands" target="">Your Borderlands<i></i></a></li>
-                    <li style={list}><a style={textDeco} href="http://localhost:8000/How-we-work" target="">How we work<i></i></a></li>
+                    <li style={list}><a style={textDeco} href="https://borderlandsgrowth.netlify.app//About-the-Deal" target="">About the Deal<i></i></a></li>
+                    <li style={list}><a style={textDeco} href="https://borderlandsgrowth.netlify.app//Projects-Programmes" target="">Projects &amp; Programmes<i></i></a></li>
+                    <li style={list}><a style={textDeco} href="https://borderlandsgrowth.netlify.app//News" target="">News<i></i></a></li>
+                    <li style={list}><a style={textDeco} href="https://borderlandsgrowth.netlify.app//Your-Borderlands" target="">Your Borderlands<i></i></a></li>
+                    <li style={list}><a style={textDeco} href="https://borderlandsgrowth.netlify.app//How-we-work" target="">How we work<i></i></a></li>
                 </ul>
             </div>
         }
