@@ -1,0 +1,48 @@
+html {
+    font-family: lato;
+}
+
+ul {
+    padding: 0px;
+    list-style-position: inside;
+}
+
+.paragraph {
+    margin: 10px 0;
+}
+  
+
+.banner {
+    max-width: 100%;
+}
+
+.bannerText {
+    font:32px/50px 'Lato', sans-serif;
+    padding:45px 0 15px;
+    font-weight:300;
+    margin:0 auto;
+    color:#69767F;
+    background: #ddd;
+    text-align: center;
+  }
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.card-container {
+    border: solid 1px;
+}
+
+.card-title-container {
+    display: flex;
+    padding: 5px 10px;
+    background-color: #600080;
+    color: #FFF;
+}
+
+.footer-container {
+    border-top: 1px solid rgba(218, 222, 225, 0.85);
+    background: none repeat scroll 0 0 #EEEEEE;
+}
