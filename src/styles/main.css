@@ -7,6 +7,14 @@ ul {
     list-style-position: inside;
 }
 
+.textDeco {
+    text-decoration: none;
+    color: #474950;
+    font-weight:400;
+    text-transform: uppercase;
+    /* font-Family:lato; */
+}
+
 .paragraph {
     margin: 10px 0;
 }
@@ -45,4 +53,8 @@ ul {
 .footer-container {
     border-top: 1px solid rgba(218, 222, 225, 0.85);
     background: none repeat scroll 0 0 #EEEEEE;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 22px;
+    padding: 30px 0 10px;
 }

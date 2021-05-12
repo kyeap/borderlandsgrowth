@@ -1,10 +1,12 @@
 import React,{ useState } from 'react';
 import logo from "../images/header_mobile.png";
 import { FaBars } from 'react-icons/fa';
+import { Link } from "gatsby"
 
 const flex = {
     display: "flex",
     margin: "15px",
+    width: "100%",
 }
 
 const blue = {
@@ -38,7 +40,7 @@ const Header = () => {
     return (
         <>  
         <div style={flex}>
-            <a href="https://borderlandsgrowth.netlify.app/"><img src={logo} alt="logo"/></a>
+            <Link to="/" className="textDeco"><img src={logo} alt="logo"/></Link>
             <div onClick={()=>{setMenuToggle(x=>!x)}}>
                 <FaBars style={blue}/>
             </div>
@@ -47,11 +49,11 @@ const Header = () => {
             menuToggle && 
             <div>
                 <ul style={noindent}>
-                    <li style={list}><a style={textDeco} href="https://borderlandsgrowth.netlify.app//About-the-Deal" target="">About the Deal<i></i></a></li>
-                    <li style={list}><a style={textDeco} href="https://borderlandsgrowth.netlify.app//Projects-Programmes" target="">Projects &amp; Programmes<i></i></a></li>
-                    <li style={list}><a style={textDeco} href="https://borderlandsgrowth.netlify.app//News" target="">News<i></i></a></li>
-                    <li style={list}><a style={textDeco} href="https://borderlandsgrowth.netlify.app//Your-Borderlands" target="">Your Borderlands<i></i></a></li>
-                    <li style={list}><a style={textDeco} href="https://borderlandsgrowth.netlify.app//How-we-work" target="">How we work<i></i></a></li>
+                    <li style={list}><Link to="/About-the-Deal" style={textDeco}>About the Deal</Link></li>
+                    <li style={list}><Link to="/Projects-Programmes" style={textDeco}> Projects &amp; Programmes</Link></li>
+                    <li style={list}><Link to="/News" style={textDeco}> News</Link></li>
+                    <li style={list}><Link to="/Your-Borderlands" style={textDeco}> Your Borderlands</Link></li>
+                    <li style={list}><Link to="/How-we" style={textDeco}> How we work</Link></li>
                 </ul>
             </div>
         }
