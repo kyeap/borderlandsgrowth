@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import '../styles/main.css';
 import {Table, Pagination} from "../components/Table.js";
 import {tableList} from "../data/news";
+import {FaRss } from 'react-icons/fa';
 
 import Header from "../components/Header";
 import Footer from "../components/Footer.js";
@@ -33,8 +34,9 @@ const News = () => {
                     page = {page}
                     setPage = {setPage}
                 />
-                <div>
-                    <a href="https://www.borderlandsgrowth.com/News/rss/424" target="_blank"><span>RSS</span></a>
+                <div className="RRS">
+                    <FaRss className="RSS-icon"/>
+                    <a className="RSS-text" href="https://www.borderlandsgrowth.com/News/rss/424" target="_blank">RSS</a>
                 </div>
             </div>
             <Footer/>

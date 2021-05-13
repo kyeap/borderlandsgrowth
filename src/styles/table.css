@@ -10,8 +10,8 @@
     border-right: solid 3px #836098;
     cursor: pointer;
     font-size: 28px;
-    flex: 0 0 178px;
-    flex-basis: 178px;
+    /* flex: 0 0 178px; */
+    flex-basis: 90%;
   }
   
   .cell2 {
