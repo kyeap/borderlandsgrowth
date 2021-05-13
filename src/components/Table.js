@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import '../styles/table.css';
 
 export const Pagination = (props) => {
@@ -15,12 +15,23 @@ export const Pagination = (props) => {
 }
 
 export const Table = (props) => {
-    const {text} = props;
+    const {title, textArr} = props;
+    const [toggle, setToggle] = useState(false);
     return (
         <>
             <div className="container-table">
-                <div className="cell1">{text}</div>
-                <div className="cell2">+</div>
+                <div className="container-table-title">
+                    <div className="cell1">{title}</div>
+                    <div className="cell2" onClick={()=>setToggle(prevState=>!prevState)}>+</div>
+                </div>
+                <div className="container-subtable" style={{display:toggle? "block":"none"}}>
+                    {textArr.map((text)=> {
+                        return (
+                            <p>{text}</p>
+                        );
+                    })}
+                </div>
+                <div className="container-table-bottom">READ MORE</div>
             </div>
         </>
     )

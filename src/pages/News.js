@@ -22,11 +22,12 @@ const News = () => {
                 </div>
             </div>
             <div className="container">
-                { tableList[page].map((title) => {
-                    console.log(title);
+                { tableList[page].map((news) => {
+                    console.log(news.title);
                     return (
                         <Table
-                            text={title}
+                            title={news.title}
+                            textArr={news.textArr}
                         />
                     )
                 }) }

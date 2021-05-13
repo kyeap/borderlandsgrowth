@@ -1,42 +1,59 @@
 .container-table {
-    display: flex;
-    border:solid 3px #836098;
-    color: #836098;
-    margin: 30px 0;
-  }
-  
-  .cell1 {
-    padding: 14px 25px;
-    border-right: solid 3px #836098;
-    cursor: pointer;
-    font-size: 28px;
-    /* flex: 0 0 178px; */
-    flex-basis: 90%;
-  }
-  
-  .cell2 {
-    flex-basis: 56px;
-    text-align: center;
-    cursor: pointer;
-    font-size: 32px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-  }
+  border:solid 3px #836098;
+  margin: 30px 0;
+}
 
-  .pagination {
+.container-table-title {
     display: flex;
-    justify-content: center;
-    border:solid 3px #836098;
-    color: #836098;
-  }
+    border-bottom:solid 3px #836098;
+    color: #836098;   
+}
+
+.container-subtable{
+  padding: 0 20px;
+}
+
+.container-table-bottom {
+  border-top: solid 3px #836098;
+  text-align: center;
+  padding: 20px 0;
+  color: #836098;  
+  font-size: 24px;
+}
   
-  .paginationCell:first-child {
-    border-left: solid 3px #836098;
-  }
-  
-  .paginationCell{
-    border-right:solid 3px #836098;
-    font-size: 13px;
-    padding: 0 10px;
-  }
+.cell1 {
+  padding: 14px 25px;
+  border-right: solid 3px #836098;
+  cursor: pointer;
+  font-size: 28px;
+  line-height: 29px;
+  /* flex: 0 0 178px; */
+  flex-basis: 90%;
+}
+
+.cell2 {
+  flex-basis: 56px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 32px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  border:solid 3px #836098;
+  color: #836098;
+}
+
+.paginationCell:first-child {
+  border-left: solid 3px #836098;
+}
+
+.paginationCell{
+  border-right:solid 3px #836098;
+  font-size: 13px;
+  padding: 0 10px;
+}
