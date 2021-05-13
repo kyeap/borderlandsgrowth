@@ -5,6 +5,7 @@ html,button,ul,li,p,a {
     font-size: 14px;
     line-height: 22px;
     text-decoration: none;
+    border: none;
 }
 
 ul {
@@ -34,8 +35,22 @@ ul {
     margin: 0 auto;
 }
 
+.title {
+    font-size: 30px;
+    margin: 10px 0;
+    line-height: 40px;
+}
+
+.title.sub {
+    font-weight: 200;
+    margin: 30px 0 0 0;
+}
+
+/************* Borderland page ************/
+
 .card-container {
     border: solid 1px;
+    margin: 20px 0;
 }
 
 .card-title-container {
@@ -43,6 +58,25 @@ ul {
     padding: 5px 10px;
     background-color: #600080;
     color: #FFF;
+}
+
+.horn-icon {
+    font-size: 30px;
+    margin: 15px 10px 0px 0;
+}
+
+.card-container-context-container {
+    padding: 20px;
+}
+
+.card-button {
+    background-color: #3fac9d;
+    color: #FFF;
+    text-align: center;
+    border-radius: 6px;
+    padding: 15px 10px;
+    font-size: 18px;
+    width: 168px;
 }
 
 /************* Home page ************/
@@ -99,22 +133,24 @@ ul {
     padding-right: 5px;
 }
 
-/************* Deal Page ************/
-.title {
-    font-size: 30px;
-    margin: 10px 0;
-    line-height: 40px;
-}
-
-.title.sub {
-    font-weight: 200;
-    margin: 30px 0 0 0;
-}
-
 /************* Projects and Programmes Page ************/
 .anchor_style {
     text-decoration: underline;
     color: blue;
+}
+
+/************* Your Borderlands Page ************/
+.FaCogs {
+    color: #600080;
+    font-size: 100px;
+    animation: cogs-animation 0.5s backwards ease-in;
+}
+
+@keyframes cogs-animation {
+    0% {transform: translateY(-8rem)}
+    50% {transform: translateY(2rem)}
+    70% {transform: translateY(-1rem)}
+    100% {transform: translateY(0rem)}
 }
 
 .footer-container {
