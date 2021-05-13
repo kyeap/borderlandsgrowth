@@ -26,7 +26,7 @@ ul {
 
 .bannerText-container {
     padding: 20px 0 40px 0;
-    font-weight:300;
+    font-weight:100;
     margin:0 auto;
     color:#69767F;
     background: #ddd;
@@ -34,8 +34,9 @@ ul {
 }
 
 .bannerText-wrapper {
-    font:32px/50px 'Lato', sans-serif;
+    /* font:32px/50px 'Lato', sans-serif; */
     padding:45px 0 15px;
+    font-size: 32px;
 }
 
 .bannerText {
