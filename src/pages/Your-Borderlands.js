@@ -12,38 +12,34 @@ import business_banner from "../images/business_banner_1200.png";
 
 import {newletters} from "../data/borderlands.js";
 
-
-const purple = {
-    color: "#600080",
-    fontSize: "100px",
-}
-
 const Borderlands = () => {
     return (
         <>
             <Header/>
             <img src={borderlands_banner} alt="Banner" className="banner"/>
-            <FaCogs style={purple}/>
-            <div>Find Out More</div>
-            <div>If you would like to find out more, please contact us at:</div>
-            <div><a href="mailto:info@borderlandsgrowth.com?subject=Enquiry%20from%20the%20Borderlands%20Website">info@borderlandsgrowth.com</a></div>
-            <div>Please note, the Borderlands Inclusive Growth Deal is a strategic programme with agreed projects / programmes of activity and therefore is not open to individual funding requests/applications.&nbsp;</div>
-            <div>Upcoming Events</div>
+            <FaCogs className="FaCogs"/>
+            <div className="title">Find Out More</div>
+            <div className="title sub">If you would like to find out more, please contact us at:</div>
+            <p><a className="anchor_style" href="mailto:info@borderlandsgrowth.com?subject=Enquiry%20from%20the%20Borderlands%20Website">info@borderlandsgrowth.com</a></p>
+            <p>Please note, the Borderlands Inclusive Growth Deal is a strategic programme with agreed projects / programmes of activity and therefore is not open to individual funding requests/applications.&nbsp;</p>
+            <div className="button-container">
+                <div className="button-purple">Upcoming Events</div>
+            </div>
             <div className="card-container">
                 <div className="card-title-container">
-                    <FaBullhorn/>
-                    <div>Stay in Touch</div>
+                    <FaBullhorn className="horn-icon"/>
+                    <div className="title">Stay in Touch</div>
                 </div>
-                <div>
+                <div className="card-container-context-container">
                     <div>
                         For <strong>regular</strong> news and updates why not <strong>Sign up</strong> to receive a Borderlands Growth Deal Newsletter
                     </div>
-                    <button>
-                        <FaPencilAlt/> Sign me up 
+                    <button className="card-button">
+                        <FaPencilAlt/> Sign me up please
                     </button>
                 </div>
             </div>
-            <div>Borderlands <strong>Newsletters</strong></div>
+            <div className="title">Borderlands <strong>Newsletters</strong></div>
             {newletters.map((newsletter)=>{
                 return (
                     <DropdownCard
