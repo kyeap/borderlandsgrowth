@@ -53,7 +53,7 @@ const Header = () => {
                     <li style={list}><Link to="/Projects-Programmes" style={textDeco}> Projects &amp; Programmes</Link></li>
                     <li style={list}><Link to="/News" style={textDeco}> News</Link></li>
                     <li style={list}><Link to="/Your-Borderlands" style={textDeco}> Your Borderlands</Link></li>
-                    <li style={list}><Link to="/How-we" style={textDeco}> How we work</Link></li>
+                    <li style={list}><Link to="/How-we-work" style={textDeco}> How we work</Link></li>
                 </ul>
             </div>
         }
