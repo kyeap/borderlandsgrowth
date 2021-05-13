@@ -1,13 +1,14 @@
 import React from "react";
 import '../styles/table.css';
 
-export const Pagination = () => {
+export const Pagination = (props) => {
+    const {setPage} = props;
     return (
         <> 
             <div className="pagination">
-            <div className="paginationCell">1</div>
-            <div className="paginationCell">2</div>
-            <div className="paginationCell">3</div>
+                <div className="paginationCell" onClick={()=>setPage(0)}>1</div>
+                <div className="paginationCell" onClick={()=>setPage(1)}>2</div>
+                <div className="paginationCell" onClick={()=>setPage(2)}>3</div>
             </div>
         </>
     )

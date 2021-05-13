@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import '../styles/main.css';
 import {Table, Pagination} from "../components/Table.js";
 import {tableList} from "../data/news";
@@ -7,6 +7,8 @@ import Header from "../components/Header";
 import Footer from "../components/Footer.js";
 
 const News = () => {
+    const [page, setPage] = useState(0);
+
     return (
         <>
             <Header/>
@@ -19,7 +21,7 @@ const News = () => {
                 </div>
             </div>
             <div className="container">
-                { tableList.map((title) => {
+                { tableList[page].map((title) => {
                     console.log(title);
                     return (
                         <Table
@@ -27,7 +29,10 @@ const News = () => {
                         />
                     )
                 }) }
-                <Pagination/>
+                <Pagination
+                    page = {page}
+                    setPage = {setPage}
+                />
                 <div>
                     <a href="https://www.borderlandsgrowth.com/News/rss/424" target="_blank"><span>RSS</span></a>
                 </div>
