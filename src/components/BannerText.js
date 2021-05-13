@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/BannerText.css";
 
 const BannerText = (props) => {
     const {textStrong="", text} = props;

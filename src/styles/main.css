@@ -1,5 +1,10 @@
-html {
-    font-family: lato;
+html,button,ul,li,p,a {
+    font-family: Lato;
+    font-weight: 400;
+    color: rgba(85,85,85);
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
 }
 
 ul {
@@ -10,9 +15,7 @@ ul {
 .textDeco {
     text-decoration: none;
     color: #474950;
-    font-weight:400;
     text-transform: uppercase;
-    /* font-Family:lato; */
 }
 
 .paragraph {
@@ -22,37 +25,6 @@ ul {
 
 .banner {
     max-width: 100%;
-}
-
-.bannerText-container {
-    padding: 20px 0 40px 0;
-    font-weight:100;
-    margin:0 auto;
-    color:#69767F;
-    background: #ddd;
-    text-align: center;
-}
-
-.bannerText-wrapper {
-    /* font:32px/50px 'Lato', sans-serif; */
-    padding:45px 0 15px;
-    font-size: 32px;
-}
-
-.bannerText {
-    width: 90%;
-    margin: 0 auto;
-    animation-name: banner-animation;
-    animation-duration: 1s;
-    transform: translateY(1rem);
-    /* opacity: 0; */
-    /* animation-fill-mode: forwards; */
-} 
- 
-@keyframes banner-animation {
-    0% {opacity:0;transform: translate(0px,0);}
-    /* 50% {opacity:0.5;transform: translate(0px,0.5rem);} */
-    100% {opacity:1;transform: translate(0px,1rem);}
 }
 
 .container {
@@ -69,6 +41,58 @@ ul {
     padding: 5px 10px;
     background-color: #600080;
     color: #FFF;
+}
+
+.logo-container {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button-purple {
+    background: #600080;
+    color: #fff;
+    border-radius: 4px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 27px;
+}
+
+.button-purple.second {
+    margin-top: 30px;
+}
+
+.newsNinformation {
+    border-bottom: 1px dashed;
+    color: #555;
+    padding: 10px 0;
+}
+
+.newsNinformation.title {
+    line-height: 28px;
+    font-size: 20px;
+}
+
+.RRS {
+    background: #f6f4f4;
+    border-top: solid #600080 1px;
+    margin: 20px 0;
+    border-bottom: solid #600080 1px;
+    text-align: right;
+    line-height: 28px;
+}
+
+.RSS-icon {
+    margin-right: 5px;
+    color: #600080;
+}
+
+.RSS-text {
+    padding-right: 5px;
 }
 
 .footer-container {
