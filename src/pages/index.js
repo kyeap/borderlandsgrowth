@@ -2,6 +2,7 @@
 import React from 'react';
 import Header from '../components/Header.js';
 import Footer from "../components/Footer.js";
+import BannerText from "../components/BannerText.js";
 import '../styles/main.css';
 
 // import images
@@ -21,10 +22,10 @@ const Home = () => {
     <>
       <Header/>
       <img src={banner} alt="norway" className="banner"/>
-      <div className="bannerText"> 
-          <strong>The Borderlands Partnership </strong>
-          has been established to unlock the potential for sustainable and inclusive economic growth across the South of Scotland and North of England.
-      </div>
+      <BannerText
+        textStrong = "The Borderlands Partnership"
+        text = "has been established to unlock the potential for sustainable and inclusive economic growth across the South of Scotland and North of England."
+      />
       <div className="paragraph">
         The Borderlands Inclusive Growth Deal was formally signed on the18th March 2021, bringing in up to £452million of fresh investment to the Borderlands area. Ministers of the UK and Scottish Governments and representatives of the five councils of the Borderlands Partnership signed the Deal at a virtual ceremony.
       </div>

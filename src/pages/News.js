@@ -10,7 +10,14 @@ const News = () => {
     return (
         <>
             <Header/>
-            <div className="bannerText">All the latest <strong>News</strong> and <strong>Information</strong> on the Borderlands Inclusive Growth Deal</div>
+            {/* not using BannerText here as parse string contain HTML Tags */}
+            <div className="bannerText-container">
+                <div className="bannerText-wrapper">
+                    <div className="bannerText"> 
+                        All the latest <strong>News</strong> and <strong>Information</strong> on the Borderlands Inclusive Growth Deal
+                    </div>
+                </div>
+            </div>
             <div className="container">
                 { tableList.map((title) => {
                     console.log(title);

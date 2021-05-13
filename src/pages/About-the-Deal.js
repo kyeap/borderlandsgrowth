@@ -3,6 +3,7 @@ import '../styles/main.css';
 
 import Header from "../components/Header";
 import Footer from "../components/Footer.js";
+import BannerText from "../components/BannerText.js";
 
 import deal_bottom from "../images/deal_bottom.png";
 import deal_banner from "../images/deal_banner.jpg";
@@ -13,10 +14,10 @@ const DealPage = () => {
         <>
             <Header/>
             <img src={deal_banner} alt="deal banner" className="banner"/>
-            <div className="bannerText"> 
-                <strong>The Borderlands Partnership </strong>
-                is working together to deliver transformative change across the region to maximise the benefits of inclusive growth.
-            </div>
+            <BannerText
+                textStrong = "The Borderlands Partnership"
+                text = "is working together to deliver transformative change across the region to maximise the benefits of inclusive growth."
+            />
             <div>
                 <div className="title">
                 About the Deal

@@ -3,6 +3,7 @@ import '../styles/main.css';
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import BannerText from "../components/BannerText.js";
 
 import Banner from "../images/project_programmers_banner.jpg";
 import Map from "../images/project_programmers_map.jpg";
@@ -14,7 +15,9 @@ const ProjectProgrammes = () => {
         <>
             <Header/>
             <img src={Banner} alt="Banner" className="banner"/>
-            <div className="bannerText">With projects and programmes located across the Borderlands, our strategic approach means our projects reinforce each other to transform our area. Some are in distinct locations making the most of an existing asset or creating something new whilst others will be delivered across the full area as part of the overarching Deal themes.</div>
+            <BannerText
+                text = "With projects and programmes located across the Borderlands, our strategic approach means our projects reinforce each other to transform our area. Some are in distinct locations making the most of an existing asset or creating something new whilst others will be delivered across the full area as part of the overarching Deal themes."
+            />
             <div className="container">
                 <div>The projects and programmes included in the Deal&nbsp;are shown in this map of our region</div>
                 <img src={Map} alt="Banner" className="banner"/>
