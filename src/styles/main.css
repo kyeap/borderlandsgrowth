@@ -13,6 +13,11 @@ ul {
     list-style-position: inside;
 }
 
+#gatsby-focus-wrapper {
+    position: relative;
+    min-height: 100vh;
+}
+
 .textDeco {
     text-decoration: none;
     color: #474950;
@@ -230,11 +235,11 @@ ul {
         100% {transform: translateY(0rem)}
     }
     
-    /* .footer-wrapper {
+    .footer-wrapper {
         position: absolute;
         bottom: 0;
         width: 100%;
-    } */
+    }
 
     .footer-container {
         padding-right: 20px;
@@ -245,9 +250,5 @@ ul {
 @media only screen and (min-width: 1440px) {    
     .container-flex {
         max-width: 95%;
-    }
-
-    .footer-wrapper {
-        width: 80%;
     }
 }
