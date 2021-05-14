@@ -20,7 +20,7 @@ export const Table = (props) => {
     return (
         <>
             <div className="container-table">
-                <div className="container-table-title">
+                <div className="container-table-title" style={{borderBottom: toggle? "solid 3px #836098":"0"}}>
                     <div className="cell1">{title}</div>
                     <div className="cell2" onClick={()=>setToggle(prevState=>!prevState)}>+</div>
                 </div>
@@ -31,7 +31,7 @@ export const Table = (props) => {
                         );
                     })}
                 </div>
-                <div className="container-table-bottom">READ MORE</div>
+                <div className="container-table-bottom" style={{display:toggle? "block":"none"}}>READ MORE</div>
             </div>
         </>
     )

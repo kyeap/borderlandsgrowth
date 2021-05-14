@@ -31,14 +31,14 @@ const News = () => {
                         />
                     )
                 }) }
-                <Pagination
-                    page = {page}
-                    setPage = {setPage}
-                />
                 <div className="RRS">
                     <FaRss className="RSS-icon"/>
                     <a className="RSS-text" href="https://www.borderlandsgrowth.com/News/rss/424" target="_blank">RSS</a>
                 </div>
+                <Pagination
+                    page = {page}
+                    setPage = {setPage}
+                />
             </div>
             <Footer/>
         </>

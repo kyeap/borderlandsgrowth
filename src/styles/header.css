@@ -43,9 +43,6 @@
     .login-nav {
         display: flex;
         justify-content: space-between;
-        /* width: 80%;
-        min-width: 1024px;
-        max-width: 1400px; */
         margin: 0 auto;
         background: rgba(0, 0, 0, 0.03);
     }
@@ -53,11 +50,8 @@
     .desktop-nav-container {
         padding: 10px 0;
         border-bottom: solid 1px rgb(220 220 220);
-        /* width: 80%;
-        min-width: 1024px;
-        max-width: 1400px; */
-        /* text-align: center; */
         margin: 0 auto;
+        width: 90%;
     }
 
     .desktop-nav {
