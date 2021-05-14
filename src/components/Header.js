@@ -2,61 +2,46 @@ import React,{ useState } from 'react';
 import logo from "../images/header_mobile.png";
 import { FaBars } from 'react-icons/fa';
 import { Link } from "gatsby"
-
-const flex = {
-    display: "flex",
-    margin: "15px",
-    width: "100%",
-}
-
-const blue = {
-    color: "#2980B9",
-    lineHeight: "1",
-    fontSize: "20px",
-}
-
-const noindent ={
-    padding: "0",
-}
-
-const list = {
-    listStyle: "none",
-    margin: "10px",
-    borderBottom: "solid 1px",
-    padding: "10px",
-    fontSize: "13px",
-}
-
-const textDeco = {
-    textDecoration: "none",
-    color: '#474950',
-    fontWeight:"400",
-    textTransform: "uppercase",
-    fontFamily:"lato",
-}
+import "../styles/header.css"
 
 const Header = () => {
     const [menuToggle, setMenuToggle] = useState(false);
     return (
         <>  
-        <div style={flex}>
-            <Link to="/" className="textDeco"><img src={logo} alt="logo"/></Link>
-            <div onClick={()=>{setMenuToggle(x=>!x)}}>
-                <FaBars style={blue}/>
+        <div className="login-nav desktop-only">
+            <div className="">info@growth</div>
+            <div>login</div>
+        </div>
+        <div className="desktop-nav-container desktop-only">
+            <Link to="/"><img src={logo} alt="logo"/></Link>
+            <div className="desktop-nav">
+                <Link to="/About-the-Deal" className="desktop-nav-element">About the Deal</Link>
+                <Link to="/Projects-Programmes" className="desktop-nav-element"> Projects &amp; Programmes</Link>
+                <Link to="/News" className="desktop-nav-element"> News</Link>
+                <Link to="/Your-Borderlands" className="desktop-nav-element"> Your Borderlands</Link>
+                <Link to="/How-we-work" className="desktop-nav-element"> How we work</Link>
             </div>
         </div>
-        {
-            menuToggle && 
-            <div>
-                <ul style={noindent}>
-                    <li style={list}><Link to="/About-the-Deal" style={textDeco}>About the Deal</Link></li>
-                    <li style={list}><Link to="/Projects-Programmes" style={textDeco}> Projects &amp; Programmes</Link></li>
-                    <li style={list}><Link to="/News" style={textDeco}> News</Link></li>
-                    <li style={list}><Link to="/Your-Borderlands" style={textDeco}> Your Borderlands</Link></li>
-                    <li style={list}><Link to="/How-we-work" style={textDeco}> How we work</Link></li>
-                </ul>
+        <div className="mobile-only">
+            <div className="mobile-nav">
+                <Link to="/"><img src={logo} alt="logo"/></Link>
+                <div onClick={()=>{setMenuToggle(x=>!x)}}>
+                    <FaBars className="blue"/>
+                </div>
             </div>
-        }
+            {
+                menuToggle && 
+                <div className="mobile-only">
+                    <ul className="noindent">
+                        <li className="list"><Link to="/About-the-Deal" className="textDeco">About the Deal</Link></li>
+                        <li className="list"><Link to="/Projects-Programmes" className="textDeco"> Projects &amp; Programmes</Link></li>
+                        <li className="list"><Link to="/News" className="textDeco"> News</Link></li>
+                        <li className="list"><Link to="/Your-Borderlands" className="textDeco"> Your Borderlands</Link></li>
+                        <li className="list"><Link to="/How-we-work" className="textDeco"> How we work</Link></li>
+                    </ul>
+                </div>
+            }
+        </div>
         </>
     );
 };
