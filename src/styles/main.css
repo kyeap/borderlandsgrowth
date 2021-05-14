@@ -157,6 +157,8 @@ ul {
     100% {transform: translateY(0rem)}
 }
 
+
+/************* Footer ************/
 .footer-container {
     border-top: 1px solid rgba(218, 222, 225, 0.85);
     background: none repeat scroll 0 0 #EEEEEE;
@@ -196,6 +198,15 @@ ul {
         flex-basis: 30%;
     }
 
+    .home-container-column-borderlands-left {
+        margin-right: 30px;
+        flex-basis: 50%;
+    }
+
+    .home-container-column-borderlands-right {
+        flex-basis: 50%;
+    }
+    
 
     .container-flex-deal {
         display: flex;
@@ -207,11 +218,36 @@ ul {
     .container-deal{
      flex-basis: 48%;   
     }
+
+    .FaCogs {
+        animation: cogs-animation 0.5s backwards ease-in;
+    }
+
+    @keyframes cogs-animation {
+        0% {transform: translateY(-20rem)}
+        70% {transform: translateY(2rem)}
+        85% {transform: translateY(-1rem)}
+        100% {transform: translateY(0rem)}
+    }
+    
+    /* .footer-wrapper {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    } */
+
+    .footer-container {
+        padding-right: 20px;
+    }
 }
 
 /* screen size bigger 1024px - laptop */
 @media only screen and (min-width: 1440px) {    
     .container-flex {
         max-width: 95%;
+    }
+
+    .footer-wrapper {
+        width: 80%;
     }
 }
