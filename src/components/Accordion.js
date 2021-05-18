@@ -108,25 +108,30 @@ export const AccordionNews = (props) => {
                 color="#836098"   
                 bg="white"
                 fontSize= "28px"
+                padding="0"
+                lineHeight= {{base:"28px",lg:"22px"}}
             >
                 <Box
                     padding= "14px 25px"
-                    border-right= "solid 3px #836098"
+                    borderRight= "solid 3px #836098"
                     cursor= "pointer"
-                    line-height= "29px"
-                    flexBasis= "95%"
+                    flexBasis= {{base:"85%",lg:"95%"}}
                     textAlign="left"
                 >
                     {title}
                 </Box>
                 <Box
-                    flexBasis= "5%"
+                    flexBasis= {{base:"15%",lg:"5%"}}
                 > 
                     +
                 </Box>
             </AccordionButton>
-            <AccordionPanel>
-                <Box>
+            <AccordionPanel
+                padding="0"
+            >
+                <Box
+                    m="25px"
+                >
                     {textArr.map((paragraph) => {
                         return (
                             <>
@@ -136,6 +141,16 @@ export const AccordionNews = (props) => {
                     })}
                 </Box>
                 <Button
+                    border-top= "solid 3px #836098"
+                    text-align= "center"
+                    padding= "30px"
+                    color= "#836098"
+                    font-size= "24px"
+                    bg="white"
+                    w="100%"
+                    borderTop="solid 3px #836098"
+                    borderRadius="0"
+                    fontSize= "24px"
                 >
                     Read More
                 </Button>
