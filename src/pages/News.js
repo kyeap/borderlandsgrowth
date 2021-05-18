@@ -1,18 +1,17 @@
 import React, {useState} from "react";
-import '../styles/main.css';
 import {Table, Pagination} from "../components/Table.js";
 import {tableList} from "../data/news";
 import {FaRss } from 'react-icons/fa';
 
-import Header from "../components/Header";
-import Footer from "../components/Footer.js";
+import Layout from "../components/Layout.js"
+import {AccordionNews} from "../components/Accordion.js";
+import {Accordion} from "@chakra-ui/accordion";
 
 const News = () => {
     const [page, setPage] = useState(0);
 
     return (
-        <>
-            <Header/>
+        <Layout>
             {/* not using BannerText here as parse string contain HTML Tags */}
             <div className="bannerText-container">
                 <div className="bannerText-wrapper">
@@ -22,15 +21,17 @@ const News = () => {
                 </div>
             </div>
             <div className="container">
-                { tableList[page].map((news) => {
-                    console.log(news.title);
-                    return (
-                        <Table
+                <Accordion>
+                    { tableList[page].map((news) => {
+                        console.log(news.title);
+                        return (         
+                            <AccordionNews
                             title={news.title}
                             textArr={news.textArr}
-                        />
-                    )
-                }) }
+                            />
+                        )
+                    })}
+                </Accordion>
                 <div className="RRS">
                     <FaRss className="RSS-icon"/>
                     <a className="RSS-text" href="https://www.borderlandsgrowth.com/News/rss/424" target="_blank">RSS</a>
@@ -40,8 +41,7 @@ const News = () => {
                     setPage = {setPage}
                 />
             </div>
-            <Footer/>
-        </>
+        </Layout>
     );
 };
 

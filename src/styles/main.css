@@ -206,10 +206,12 @@ ul {
     .home-container-column-borderlands-left {
         margin-right: 30px;
         flex-basis: 50%;
+        width: 50%;
     }
 
     .home-container-column-borderlands-right {
         flex-basis: 50%;
+        width: 50%;
     }
     
 
@@ -237,7 +239,7 @@ ul {
     
     .footer-wrapper {
         position: absolute;
-        bottom: 0;
+        bottom: -80px;
         width: 100%;
     }
 
