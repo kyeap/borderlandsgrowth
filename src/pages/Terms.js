@@ -1,12 +1,10 @@
 import React from "react";
 
-import Header from "../components/Header";
-import Footer from "../components/Footer.js";
+import Layout from "../components/Layout.js"
 
 const Terms = () => {
     return (
-        <> 
-            <Header/>
+        <Layout> 
             <div className="container">
                 <p><span>AGREEMENT BETWEEN USER AND Borderlands</span></p>
                 <p>The Borderlands Web Site is comprised of various Web pages operated by Borderlands.</p>
@@ -189,8 +187,7 @@ const Terms = () => {
                 WILL RECEIVE NO RESPONSE. See Notice and Procedure for Making Claims of Copyright
                 Infringement.</p>
             </div>
-            <Footer/>
-        </>
+        </Layout>
     )
 }
 

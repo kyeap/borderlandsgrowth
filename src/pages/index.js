@@ -1,7 +1,6 @@
 
 import React from 'react';
-import Header from '../components/Header.js';
-import Footer from "../components/Footer.js";
+import Layout from "../components/Layout.js"
 import BannerText from "../components/BannerText.js";
 import '../styles/main.css';
 import {FaRss } from 'react-icons/fa';
@@ -20,8 +19,7 @@ import UKGovernmentLogo from "../images/UK-government-logo.png";
 const Home = () => {
 
   return (
-    <>
-      <Header/>
+    <Layout>
       <img src={banner} alt="norway" className="banner"/>
       <BannerText
         textStrong = "The Borderlands Partnership"
@@ -105,8 +103,7 @@ const Home = () => {
         <img src={UKGovernmentLogo} alt="uk goverment logo" />
         <img src={NCC_logo} alt="Ncc logo" />
       </div>
-      <Footer/>
-    </>
+    </Layout>
   );
 };
 

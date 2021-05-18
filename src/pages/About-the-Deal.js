@@ -1,8 +1,7 @@
 import React from "react";
 import '../styles/main.css';
 
-import Header from "../components/Header";
-import Footer from "../components/Footer.js";
+import Layout from "../components/Layout.js"
 import BannerText from "../components/BannerText.js";
 
 import deal_bottom from "../images/deal_bottom.png";
@@ -11,8 +10,7 @@ import deal_banner from "../images/deal_banner.jpg";
 
 const DealPage = () => {
     return (
-        <>
-            <Header/>
+        <Layout>
             <img src={deal_banner} alt="deal banner" className="banner"/>
             <BannerText
                 textStrong = "The Borderlands Partnership"
@@ -94,8 +92,7 @@ const DealPage = () => {
                 <div> Will think of a way to do this</div>
                 <div>Maybe better not using table? </div>
             </div>
-            <Footer/>
-        </>
+        </Layout>
     );
 };
 

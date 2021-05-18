@@ -1,8 +1,7 @@
 import React from "react";
 import '../styles/main.css';
 
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Layout from "../components/Layout.js"
 import BannerText from "../components/BannerText.js";
 
 import Banner from "../images/project_programmers_banner.jpg";
@@ -12,8 +11,7 @@ import Bottom from "../images/project_programmers_bottom.jpg";
 
 const ProjectProgrammes = () => {
     return (
-        <>
-            <Header/>
+        <Layout>
             <img src={Banner} alt="Banner" className="banner"/>
             <BannerText
                 text = "With projects and programmes located across the Borderlands, our strategic approach means our projects reinforce each other to transform our area. Some are in distinct locations making the most of an existing asset or creating something new whilst others will be delivered across the full area as part of the overarching Deal themes."
@@ -33,9 +31,7 @@ const ProjectProgrammes = () => {
                 <p>More information on each of the divrojects and programmes listed below is available within the&nbsp;<a className="anchor_style" href="/Portals/0/Borderlands%20Inclusive%20Growth%20Deal%20Deal%20Document%202021%20-%20Signed.pdf?ver=2021-03-17-183958-067">Deal Document</a>.</p>
                 <img src={Bottom} alt="Banner" className="banner"/>
             </div>
-
-            <Footer/>
-        </>
+        </Layout>
     );
 };
 

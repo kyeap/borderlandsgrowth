@@ -1,13 +1,11 @@
 import React from "react";
 import '../styles/main.css';
 
-import Header from "../components/Header";
-import Footer from "../components/Footer.js";
+import Layout from "../components/Layout.js"
 
 const HowWeWork = () => {
     return (
-        <>
-            <Header/>
+        <Layout>
             <div className="container">
                 <div className="title">How We Work</div>
 
@@ -29,8 +27,7 @@ const HowWeWork = () => {
                 <p><strong>Borderlands PMO </strong>- The Borderlands Project Management Office is in place to oversee the development, delivery and effective day to day management of the Deal. The team will procure specialist appraisal support where necessary to support its work. Please email <a className="anchor_style" href="mailto:info@borderlandsgrowth.com">info@borderlandsgrowth.com</a> to speak with a member of the team.</p>
                 <p><strong>Accountable Bodies </strong>- Dumfries and Galloway Council has the role of accountable body as regards both the Scottish Government funding for the Growth Deal and that part of the UK Government funding which relates to Growth Deal Projects physically located in Scotland. Northumberland County Council has the role of accountable body as regards that part of the UK Government funding which relates to Growth Deal projects physically located in England. The accountable bodies will enter into the financial legal agreements with the UK and Scottish Government in respect of the Growth Deal.</p>
             </div>  
-            <Footer/>
-        </>
+        </Layout>
     );
 };
 

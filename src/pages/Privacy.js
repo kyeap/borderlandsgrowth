@@ -1,12 +1,10 @@
 import React from "react";
 
-import Header from "../components/Header";
-import Footer from "../components/Footer.js";
+import Layout from "../components/Layout.js"
 
 const Privacy = () => {
     return (
-        <>
-            <Header/>
+        <Layout>
             <div className="container">
 
                 <p>Borderlands is committed to protecting your privacy and developing technology
@@ -102,8 +100,7 @@ const Privacy = () => {
                 We will use commercially reasonable efforts to promptly determine and remedy the
                 problem.</p>
             </div>
-            <Footer/>
-        </>
+        </Layout>
     );
 };
 
