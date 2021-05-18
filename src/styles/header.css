@@ -63,6 +63,14 @@
         margin: 10px;
         font-size: 14px;
         color: #777;
+        letter-spacing: 2px;
+    }
+
+    .desktop-nav-element-active {
+        font-weight: bold;
+        border-bottom: 1px solid black;
+        color: black;
+        padding-bottom: 10px;
     }
 
     .mobile-only {
