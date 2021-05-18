@@ -15,11 +15,11 @@ const Header = () => {
         <div className="desktop-nav-container desktop-only">
             <Link to="/"><img src={logo} alt="logo"/></Link>
             <div className="desktop-nav">
-                <Link to="/About-the-Deal" className="desktop-nav-element">About the Deal</Link>
-                <Link to="/Projects-Programmes" className="desktop-nav-element"> Projects &amp; Programmes</Link>
-                <Link to="/News" className="desktop-nav-element"> News</Link>
-                <Link to="/Your-Borderlands" className="desktop-nav-element"> Your Borderlands</Link>
-                <Link to="/How-we-work" className="desktop-nav-element"> How we work</Link>
+                <Link to="/About-the-Deal" className="desktop-nav-element" activeClassName="desktop-nav-element-active">About the Deal</Link>
+                <Link to="/Projects-Programmes" className="desktop-nav-element" activeClassName="desktop-nav-element-active"> Projects &amp; Programmes</Link>
+                <Link to="/News" className="desktop-nav-element" activeClassName="desktop-nav-element-active"> News</Link>
+                <Link to="/Your-Borderlands" className="desktop-nav-element" activeClassName="desktop-nav-element-active"> Your Borderlands</Link>
+                <Link to="/How-we-work" className="desktop-nav-element" activeClassName="desktop-nav-element-active"> How we work</Link>
             </div>
         </div>
         <div className="mobile-only">
