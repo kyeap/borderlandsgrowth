@@ -10,7 +10,10 @@ export default function Layout ({children}) {
         <>
             <Helmet defer={false}>
                 <title>Borderlands Site</title>
-                {console.log('in helmet')};
+                <meta id="MetaDescription" name="DESCRIPTION" content="We would like you to let us know your views on the Borderlands Growth Deal by emailing info@borderlandsgrowth.com " />
+                <meta id="MetaKeywords" name="KEYWORDS" content="contact , involved,surveys,email,telephone, Borderlands, Borderlands Inclusive Growth Deal contact us, Borderlands Growth Deal contact us.,Northumberland County Council,NCC" />
+                <meta id="MetaGenerator" name="GENERATOR" content="Northumberland County Council"/>
+                <meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" />
                 <html lang="en" amp />
                 <script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js" type="text/javascript"></script>
                 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117663104-1"></script>
@@ -80,7 +83,6 @@ export default function Layout ({children}) {
                     {`  
                         console.log('script tag working');
                         setTimeout(function () {
-                            // do things after the DOM loads partially
                             console.log('ready to collect cookies');
                             CookieControl.load(cookieconfig);
                         })

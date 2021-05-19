@@ -7,7 +7,7 @@ import "../styles/header.css"
 const Header = () => {
     const [menuToggle, setMenuToggle] = useState(false);
     return (
-        <>  
+        <header>  
         <div className="login-nav desktop-only">
             <div className="">info@growth</div>
             <div>login</div>
@@ -42,7 +42,7 @@ const Header = () => {
                 </div>
             }
         </div>
-        </>
+        </header>
     );
 };
 
