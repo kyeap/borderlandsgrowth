@@ -44,7 +44,7 @@ const Borderlands = () => {
                         </div>
                     </div>
                     <div className="title">Borderlands <strong>Newsletters</strong></div>
-                    <Accordion>
+                    <Accordion allowMultiple> 
                         {newletters.map((newsletter)=>{
                             return (
                                 <AccordionBorderlands

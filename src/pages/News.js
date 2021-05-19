@@ -21,7 +21,7 @@ const News = () => {
                 </div>
             </div>
             <div className="container">
-                <Accordion>
+                <Accordion allowMultiple>
                     { tableList[page].map((news) => {
                         console.log(news.title);
                         return (         
