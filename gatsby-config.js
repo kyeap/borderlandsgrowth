@@ -11,6 +11,7 @@ module.exports = {
           `Lato:400,700,300,900` // you can also specify font weights and styles
         ],
       }
-    }
+    },
+    `gatsby-plugin-react-helmet`,
   ],
 };
