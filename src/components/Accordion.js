@@ -5,9 +5,8 @@ import {
     AccordionItem,
     AccordionButton,
     AccordionPanel,
-    AccordionIcon,
   } from "@chakra-ui/accordion"
-  import { ChakraProvider,Box, Button } from "@chakra-ui/react"
+  import { Box, Button } from "@chakra-ui/react"
 
 export const AccordionSpring = (dropdown) => {
     const [open, set] = useState(false);
