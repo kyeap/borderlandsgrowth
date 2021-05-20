@@ -34,7 +34,7 @@ const News = () => {
                 </Accordion>
                 <div className="RRS">
                     <FaRss className="RSS-icon"/>
-                    <a className="RSS-text" href="https://www.borderlandsgrowth.com/News/rss/424" target="_blank">RSS</a>
+                    <a className="RSS-text" href="https://www.borderlandsgrowth.com/News/rss/424" target="_blank" role="presentation">RSS</a>
                 </div>
                 <Pagination
                     page = {page}

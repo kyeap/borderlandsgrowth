@@ -11,7 +11,7 @@ import deal_banner from "../images/deal_banner.jpg";
 const DealPage = () => {
     return (
         <Layout>
-            <img src={deal_banner} alt="deal banner" className="banner"/>
+            <img src={deal_banner} alt="deal banner" className="banner" role="presentation"/>
             <BannerText
                 textStrong = "The Borderlands Partnership"
                 text = "is working together to deliver transformative change across the region to maximise the benefits of inclusive growth."
@@ -26,7 +26,7 @@ const DealPage = () => {
                 <p>
                     The strategic approach includes five high profile projects which anchor the Borderlands Inclusive Growth Deal. These projects have been developed to have a transformational impact on their area as well as the wider regional economy and their strategic nature means they are cross-cutting in their impact and in many instances contribute to all four strategic themes. Equally important in this strategic approach are the Borderlands-wide investment programmes that are designed to ensure benefits can be realised across the whole of the Borderlands region.
                 </p>
-                <img src={deal_bottom} alt="title" className="banner"/>
+                <img src={deal_bottom} alt="The four strategic themes that will be explained further below" className="banner" tabIndex="0"/>
                 <div className="title">
                     Four Strategic Themes:
                 </div>

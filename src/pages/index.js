@@ -20,7 +20,7 @@ const Home = () => {
 
   return (
     <Layout>
-      <img src={banner} alt="norway" className="banner"/>
+      <img src={banner} alt="home banner top" className="banner" role="presentation"/>
       <BannerText
         textStrong = "The Borderlands Partnership"
         text = "has been established to unlock the potential for sustainable and inclusive economic growth across the South of Scotland and North of England."
@@ -60,7 +60,7 @@ const Home = () => {
             <li>Increasing the working age population</li>
             <li>Delivering inclusive growth, by addressing digital exclusion; the earnings gap and access to quality jobs and access to education</li>
           </ul>
-          <img src={home_bottom} alt="home bottom" className="banner"/>
+          <img src={home_bottom} alt="Benefits of Borderlands Inclusive Growth deal" className="banner" role="presentation"/>
         </div>
         <div className="home-container-column-right">
           <div className="newsNinformation title"><strong>News</strong> and <strong>information</strong></div>
@@ -95,13 +95,13 @@ const Home = () => {
         </div>
       </div>
       <div className="logo-container">
-        <img src={CCClogo} alt="ccc logo" />
-        <img src={dumfriesNgalloway} alt="dumfries logo" />
-        <img src={CumbriaCountyCouncillogo} alt="cumbria logo" />
-        <img src={Scottish_Government_logo} alt="scottish goverment logo" />
-        <img src={Scottish_border_logo} alt="scottish boarder logo" />
-        <img src={UKGovernmentLogo} alt="uk goverment logo" />
-        <img src={NCC_logo} alt="Ncc logo" />
+        <img role="presentation" src={CCClogo} alt="ccc logo" />
+        <img role="presentation" src={dumfriesNgalloway} alt="dumfries logo" />
+        <img role="presentation" src={CumbriaCountyCouncillogo} alt="cumbria logo" />
+        <img role="presentation" src={Scottish_Government_logo} alt="scottish goverment logo" />
+        <img role="presentation" src={Scottish_border_logo} alt="scottish boarder logo" />
+        <img role="presentation" src={UKGovernmentLogo} alt="uk goverment logo" />
+        <img role="presentation" src={NCC_logo} alt="Ncc logo" />
       </div>
     </Layout>
   );
