@@ -131,6 +131,8 @@ ul {
     border-bottom: solid #600080 1px;
     text-align: right;
     line-height: 28px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .RSS-icon {
@@ -176,7 +178,7 @@ ul {
 
 /* screen size bigger 1024px - laptop */
 @media only screen and (min-width: 1024px) {
-    body {
+    .page-wrapper {
         width: 80%;
         min-width: 1024px;
         max-width: 1400px;
@@ -238,7 +240,6 @@ ul {
     }
     
     .footer-wrapper {
-        position: absolute;
         bottom: -80px;
         width: 100%;
     }

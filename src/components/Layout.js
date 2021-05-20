@@ -89,9 +89,11 @@ export default function Layout ({children}) {
                     `}
                 </script>
             </Helmet>
-            <Header/>
-            {children}  
-            <Footer />
+            <div className="page-wrapper">
+                <Header/>
+                {children}  
+                <Footer />
+            </div>
         </>
     )
 }
