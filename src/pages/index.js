@@ -41,7 +41,7 @@ const Home = () => {
             <button className="button-purple">Borderlands Inclusive Growth Deal Document</button>
           </div>
           <div className="button-container">
-            <button className="button-purple second">View the Virtual Deal Signing Ceremony</button>
+            <button className="button-purple">View the Virtual Deal Signing Ceremony</button>
           </div>
           <p>Our programme of investment will deliver significant economic benefit for our communities and businesses. Over the programme lifetime and a further 10 years to capture the benefits, we estimate that the Borderlands Inclusive Growth Deal will:</p>
           <ul>

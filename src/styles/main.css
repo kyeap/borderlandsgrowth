@@ -42,6 +42,9 @@ ul {
 .container-flex {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .title {
@@ -93,10 +96,14 @@ ul {
 .logo-container {
     text-align: center;
     margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .button-container {
-    text-align: center;
+    text-align: left;
+    display: block;
 }
 
 .button-purple {
@@ -107,10 +114,8 @@ ul {
     font-size: 14px;
     font-weight: normal;
     line-height: 27px;
-}
-
-.button-purple.second {
-    margin-top: 30px;
+    padding: 0 10px;
+    margin: 15px 0;
 }
 
 .newsNinformation {
@@ -176,12 +181,26 @@ ul {
 }
 
 
+@media only screen and (max-width: 1024px) {
+    .footer-wrapper {
+        width: 100%;
+        position: absolute;
+        bottom: -80px;
+    } 
+}
+
+@media only screen and (max-width: 425px) {
+    .footer-wrapper {
+        position: relative;
+    } 
+}
+
+
 /* screen size bigger 1024px - laptop */
 @media only screen and (min-width: 1024px) {
     .page-wrapper {
         width: 80%;
         min-width: 1024px;
-        max-width: 1400px;
         margin: 0 auto;
     }
 
@@ -192,8 +211,12 @@ ul {
 
     .container-flex {
         flex-direction: row;
-        max-width: 90%;
         margin: 30px auto;
+        width: 95%;
+    }
+
+    .container-flex.borderlands-bottom {
+        flex-direction: column;
     }
 
     .home-container-column-left {
@@ -238,11 +261,7 @@ ul {
         85% {transform: translateY(-1rem)}
         100% {transform: translateY(0rem)}
     }
-    
-    .footer-wrapper {
-        bottom: -80px;
-        width: 100%;
-    }
+
 
     .footer-container {
         padding-right: 20px;
@@ -251,7 +270,9 @@ ul {
 
 /* screen size bigger 1024px - laptop */
 @media only screen and (min-width: 1440px) {    
-    .container-flex {
-        max-width: 95%;
+    .footer-wrapper {
+        width: 80%;
+        bottom: 0;
+        position: absolute;
     }
 }
