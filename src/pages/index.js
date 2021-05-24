@@ -1,5 +1,6 @@
 
 import React from 'react';
+
 import Layout from "../components/Layout.js"
 import BannerText from "../components/BannerText.js";
 import '../styles/main.css';
@@ -16,6 +17,9 @@ import Scottish_border_logo from "../images/Scottish_border_logo.png";
 import Scottish_Government_logo from "../images/Scottish_Government_logo.png";
 import UKGovernmentLogo from "../images/UK-government-logo.png";
 
+//import PDFs
+import DealSummary from "../data/BorderlandsInclusiveGrowthDealsummaryMarch21.pdf";
+import DealDocument from "../data/BorderlandsInclusiveGrowthDealDealDocument2021-Signed.pdf";
 const Home = () => {
 
   return (
@@ -34,14 +38,20 @@ const Home = () => {
           The Deal is truly distinctive, covering the largest geographical area of any regional growth Deal negotiated with the UK and Scottish Governments and it is the first cross-border deal.
           </p>
           <div className="button-container">
-            <button className="button-purple">Read more about the Deal in our summary document</button>
+            <a href={DealSummary}>
+              <button className="button-purple">Read more about the Deal in our summary document</button>
+            </a>
           </div>
           <p> Read the full Deal Document</p>
           <div className="button-container">
-            <button className="button-purple">Borderlands Inclusive Growth Deal Document</button>
+            <a href={DealDocument}>
+              <button className="button-purple">Borderlands Inclusive Growth Deal Document</button>
+            </a>
           </div>
           <div className="button-container">
-            <button className="button-purple">View the Virtual Deal Signing Ceremony</button>
+            <a href="https://www.youtube.com/watch?v=4x0wjhjWoas">
+              <button className="button-purple">View the Virtual Deal Signing Ceremony</button>
+            </a>
           </div>
           <p>Our programme of investment will deliver significant economic benefit for our communities and businesses. Over the programme lifetime and a further 10 years to capture the benefits, we estimate that the Borderlands Inclusive Growth Deal will:</p>
           <ul>
