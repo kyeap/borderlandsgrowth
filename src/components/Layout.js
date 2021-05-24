@@ -14,6 +14,7 @@ export default function Layout ({children}) {
                 <meta id="MetaKeywords" name="KEYWORDS" content="contact , involved,surveys,email,telephone, Borderlands, Borderlands Inclusive Growth Deal contact us, Borderlands Growth Deal contact us.,Northumberland County Council,NCC" />
                 <meta id="MetaGenerator" name="GENERATOR" content="Northumberland County Council"/>
                 <meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" />
+                <link rel="icon" href="https://www.borderlandsgrowth.com/favicon.ico"/>
                 <html lang="en" amp />
                 <script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js" type="text/javascript"></script>
                 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117663104-1"></script>
