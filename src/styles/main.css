@@ -272,7 +272,7 @@ ul {
 @media only screen and (min-width: 1440px) {    
     .footer-wrapper {
         width: 80%;
-        bottom: 0;
+        bottom: -80px;
         position: absolute;
     }
 }
