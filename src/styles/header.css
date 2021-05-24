@@ -33,6 +33,19 @@
     display: none;
 }
 
+.navigate-to-main-content{
+    width: 1px;
+        /* position: absolute;
+        clip: rect(1px, 1px, 1px, 1px); */
+    opacity: 0;
+}
+
+
+
+.navigate-to-main-content:focus {
+    border: 1px solid blue;
+    opacity: 1;
+}
 
 /* screen size bigger 1024px - laptop */
 @media only screen and (min-width: 1024px) {

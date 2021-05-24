@@ -1,9 +1,9 @@
 import React,{ useState } from 'react';
 import logo from "../images/header_mobile.png";
 import { FaBars } from 'react-icons/fa';
-import { Link } from "gatsby"
-import "../styles/header.css"
-import { useLocation } from "@reach/router"
+import { Link } from "gatsby";
+import "../styles/header.css";
+import { useLocation } from "@reach/router";
 
 // still need this styling besides the check location then style code in the component itself because url seems to add a / when refreshed 
 const NavLink = props => (
@@ -44,6 +44,7 @@ const Header = () => {
             <div className="">info@growth</div>
             <div>login</div>
         </div>
+        <a className="navigate-to-main-content" href='#main'>Skip to main content</a>
         <div className="desktop-nav-container desktop-only">
             <Link to="/"><img src={logo} alt="logo"/></Link>
             <div className="desktop-nav">

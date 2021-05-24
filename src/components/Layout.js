@@ -91,7 +91,9 @@ export default function Layout ({children}) {
             </Helmet>
             <div className="page-wrapper">
                 <Header/>
-                {children}  
+                <main id="main">
+                    {children}  
+                </main>
                 <Footer />
             </div>
         </>
