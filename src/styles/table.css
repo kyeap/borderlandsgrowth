@@ -46,6 +46,7 @@
   justify-content: center;
   border:solid 3px #836098;
   color: #836098;
+  min-height: 57px;
 }
 
 .paginationCell:first-child {
