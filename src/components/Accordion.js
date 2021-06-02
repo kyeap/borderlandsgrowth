@@ -7,6 +7,7 @@ import {
     AccordionPanel,
   } from "@chakra-ui/accordion"
   import { Box, Button } from "@chakra-ui/react"
+import { Link } from "gatsby";
 
 export const AccordionSpring = (dropdown) => {
     const [open, set] = useState(false);
@@ -94,7 +95,7 @@ export const AccordionBorderlands = (props) => {
 }
 
 export const AccordionNews = (props) => {
-    const {title,textArr} = props;
+    const {title,textArr,downloadPath, link =''} = props;
     
     return (
         <AccordionItem
@@ -144,19 +145,21 @@ export const AccordionNews = (props) => {
                                 )
                             })}
                         </Box>
-                        <Button
-                            border-top= "solid 3px #836098"
-                            padding= "30px"
-                            color= "#836098"
-                            fontSize= "24px"
-                            bg="white"
-                            w="100%"
-                            borderTop="solid 3px #836098"
-                            borderRadius="0"
-                            fontSize= "24px"
-                        >
-                            Read More
-                        </Button>
+                        <a href={downloadPath==""?link:downloadPath}>
+                            <Button
+                                border-top= "solid 3px #836098"
+                                padding= "30px"
+                                color= "#836098"
+                                fontSize= "24px"
+                                bg="white"
+                                w="100%"
+                                borderTop="solid 3px #836098"
+                                borderRadius="0"
+                                fontSize= "24px"
+                            >
+                                    Read More
+                            </Button>
+                        </a>
                     </AccordionPanel>
                 </>
             )}
