@@ -50,6 +50,7 @@ const Header = () => {
             <div className="desktop-nav">
                 <NavLink to="/About-the-Deal" className="desktop-nav-element" style={location.pathname === "/About-the-Deal/"?linkdeco : {}}>About the Deal</NavLink>
                 <NavLink to="/Projects-Programmes" className="desktop-nav-element" style={location.pathname === "/Projects-Programmes/"?linkdeco : {}}> Projects &amp; Programmes</NavLink>
+                <NavLink to="/Digital-Strategy" className="desktop-nav-element" style={location.pathname === "/Digital-Strategy/"?linkdeco : {}}> Digital Strategy</NavLink>
                 <NavLink to="/News" className="desktop-nav-element" style={location.pathname === "/News/"?linkdeco : {}}> News</NavLink>
                 <NavLink to="/Your-Borderlands" className="desktop-nav-element" style={location.pathname === "/Your-Borderlands/"?linkdeco : {}}> Your Borderlands</NavLink>
                 <NavLink to="/How-we-work" className="desktop-nav-element" style={location.pathname === "/How-we-work/"?linkdeco : {}}> How we work</NavLink>
@@ -68,6 +69,7 @@ const Header = () => {
                     <ul className="noindent">
                         <li className="list"><Link to="/About-the-Deal" className="textDeco">About the Deal</Link></li>
                         <li className="list"><Link to="/Projects-Programmes" className="textDeco"> Projects &amp; Programmes</Link></li>
+                        <li className="list"><Link to="/Digital-Strategy" className="textDeco"> Digital Strategy</Link></li>
                         <li className="list"><Link to="/News" className="textDeco"> News</Link></li>
                         <li className="list"><Link to="/Your-Borderlands" className="textDeco"> Your Borderlands</Link></li>
                         <li className="list"><Link to="/How-we-work" className="textDeco"> How we work</Link></li>
