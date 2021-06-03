@@ -1,4 +1,8 @@
 export const tableList = [
+        {title:"Business experts join the new Borderlands Inclusive Growth Deal Economic Forum",
+        textArr:["The new business-led Borderlands Economic Forum is now in place, to support delivery of the Borderlands Inclusive Growth Deal. Working in support of the Borderlands Partnership Board, the ten private business representatives on the Economic Forum will bring commercial experience to complement public sector stakeholders from the South of Scotland Enterprise, Skills Development Scotland, and the Cumbria and North East Local Enterprise Partnerships."],
+        downloadPath:"../../BorderlandsPressRelease-NewEconomicForum.pdf"
+        },
         {title:"The ground-breaking Borderlands Inclusive Growth Deal has been signed",
         textArr:["Exciting plans to transform Carlisle Railway Station and its surrounds look set to take a major step forward after Government gave the green light to funding for the project."],
         downloadPath:"../../BorderlandsPressRelease-Dealsigningfinalversionforissue.docx"

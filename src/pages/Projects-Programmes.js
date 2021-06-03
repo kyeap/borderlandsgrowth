@@ -26,7 +26,7 @@ const ProjectProgrammes = () => {
                     <li>Lillidorei at The Alnwick Garden (<a className="anchor_style" href="https://www.alnwickgarden.com/">find out more</a>)</li>
                     <li>Phase 1 of the Carlisle Station Gateway and Citadels</li>
                     <li>Development of the Borderlands Energy Masterplan</li>
-                    <li>Digital voucher top up scheme in Cumbria and Northumberland (<a className="anchor_style" href="/Digital-Voucher-Scheme">find out more</a>)</li>
+                    <li>Digital voucher top up scheme in Cumbria and Northumberland</li>
                 </ul>
                 <p>More information on each of the divrojects and programmes listed below is available within the&nbsp;<a className="anchor_style" href="/Portals/0/Borderlands%20Inclusive%20Growth%20Deal%20Deal%20Document%202021%20-%20Signed.pdf?ver=2021-03-17-183958-067">Deal Document</a>.</p>
                 <img src={Bottom} alt="Table that lists the various investment theme, their description and project or programme" className="banner" tabindex="0"/>
