@@ -4,27 +4,30 @@ import { FaBars } from 'react-icons/fa';
 import { Link } from "gatsby";
 import "../styles/header.css";
 import { useLocation } from "@reach/router";
+import {Flex, Box} from '@chakra-ui/react';
 
 // still need this styling besides the check location then style code in the component itself because url seems to add a / when refreshed 
 const NavLink = props => (
-    <Link
-      {...props}
-      getProps={({ isCurrent }) => {
-        // the object returned here is passed to the
-        // anchor element's props
-        if (isCurrent) {
-            console.log(isCurrent);
-            return {
-                style: {
-                    fontWeight: "bold",
-                    borderBottom: "1px solid black",
-                    color: "black",
-                    paddingBottom: "10px"
+    <Box>
+        <Link
+        {...props}
+        getProps={({ isCurrent }) => {
+            // the object returned here is passed to the
+            // anchor element's props
+            if (isCurrent) {
+                console.log(isCurrent);
+                return {
+                    style: {
+                        fontWeight: "bold",
+                        borderBottom: "1px solid black",
+                        color: "black",
+                        paddingBottom: "10px"
+                    }
                 }
             }
-        }
-      }}
-    />
+        }}
+        />
+    </Box>
   );
 
 const linkdeco = {
@@ -47,14 +50,14 @@ const Header = () => {
         <a className="navigate-to-main-content" href='#main'>Skip to main content</a>
         <div className="desktop-nav-container desktop-only">
             <Link to="/"><img src={logo} alt="logo"/></Link>
-            <div className="desktop-nav">
+            <Flex className="desktop-nav">
                 <NavLink to="/About-the-Deal" className="desktop-nav-element" style={location.pathname === "/About-the-Deal/"?linkdeco : {}}>About the Deal</NavLink>
                 <NavLink to="/Projects-Programmes" className="desktop-nav-element" style={location.pathname === "/Projects-Programmes/"?linkdeco : {}}> Projects &amp; Programmes</NavLink>
                 <NavLink to="/Digital-Strategy" className="desktop-nav-element" style={location.pathname === "/Digital-Strategy/"?linkdeco : {}}> Digital Strategy</NavLink>
                 <NavLink to="/News" className="desktop-nav-element" style={location.pathname === "/News/"?linkdeco : {}}> News</NavLink>
                 <NavLink to="/Your-Borderlands" className="desktop-nav-element" style={location.pathname === "/Your-Borderlands/"?linkdeco : {}}> Your Borderlands</NavLink>
                 <NavLink to="/How-we-work" className="desktop-nav-element" style={location.pathname === "/How-we-work/"?linkdeco : {}}> How we work</NavLink>
-            </div>
+            </Flex>
         </div>
         <div className="mobile-only">
             <div className="mobile-nav">

@@ -1,5 +1,8 @@
 import React from "react";
+import {Box, Flex} from "@chakra-ui/react";
 import '../styles/main.css';
+
+import { FaFilePdf } from 'react-icons/fa';
 
 import Layout from "../components/Layout.js"
 import BannerText from "../components/BannerText.js";
@@ -89,8 +92,18 @@ const DealPage = () => {
                 <div className="title sub">
                     Download Borderlands Inclusive Growth Deal Documents
                 </div>
-                <div> Will think of a way to do this</div>
-                <div>Maybe better not using table? </div>
+                <a href="../../BorderlandsInclusiveGrowthDealDealDocument2021-Signed.pdf">
+                    <Flex as="button" my={2} align="baseline">
+                        <Box mr={2}><FaFilePdf  color="red" fontSize="20px"/></Box>
+                        <Box><p>Borderlands Inclusive Growth Deal March 2021</p></Box>
+                    </Flex>
+                </a>
+                <a href="../../BorderlandsInclusiveGrowthDealsummaryMarch21.pdf">
+                    <Flex as="button" align="baseline">
+                        <Box mr={2}><FaFilePdf  color="red" fontSize="20px"/></Box>
+                        <Box> <p>Borderlands Inclusive Growth Deal summary March 21</p></Box>
+                    </Flex>
+                </a>
             </div>
         </Layout>
     );

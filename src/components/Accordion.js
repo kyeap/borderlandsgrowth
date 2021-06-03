@@ -69,8 +69,8 @@ export const AccordionBorderlands = (props) => {
                                 padding="10px"
                                 margin= "10px 0"
                             >   
-                                <div>Documents to download</div>
-                                <div>{link}</div>
+                                <div>Click <a href={link}>here</a> to download the newsletter.</div>
+                                
                             </Box>
                         }
                         <Box

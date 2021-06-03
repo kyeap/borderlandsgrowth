@@ -16,6 +16,9 @@ const theme = extendTheme({
             p : {
                 fontSize: "18px",
                 margin:"10px 0",
+            },
+            a : {
+                textDecoration: "underline",
             }
         },
     },
