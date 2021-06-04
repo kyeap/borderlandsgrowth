@@ -30,9 +30,9 @@ const HowWeWork = () => {
                 <p><em>Future minutes of the Partnership Board and Economic Forum meetings will be posted here.</em></p>
                 <p><strong>Borderlands PMO </strong>- The Borderlands Project Management Office is in place to oversee the development, delivery and effective day to day management of the Deal. The team will procure specialist appraisal support where necessary to support its work. Please email <a className="anchor_style" href="mailto:info@borderlandsgrowth.com">info@borderlandsgrowth.com</a> to speak with a member of the team.</p>
                 <p><strong>Accountable Bodies </strong>- Dumfries and Galloway Council has the role of accountable body as regards both the Scottish Government funding for the Growth Deal and that part of the UK Government funding which relates to Growth Deal Projects physically located in Scotland. Northumberland County Council has the role of accountable body as regards that part of the UK Government funding which relates to Growth Deal projects physically located in England. The accountable bodies will enter into the financial legal agreements with the UK and Scottish Government in respect of the Growth Deal.</p>
-                <Box as="h2" className="title sub">
+                <h2>
                     Download Documents
-                </Box>
+                </h2>
                 <Flex as="button" my={2} align="baseline">
                     <Box mr={2}><FaFilePdf  color="red" fontSize="20px"/></Box>
                     <Box as="a" href="../../BorderlandsEconomicForumMembersMay2021.pdf" textDecoration="none"><p>Borderlands Economic Forum Members May 2021</p></Box>
