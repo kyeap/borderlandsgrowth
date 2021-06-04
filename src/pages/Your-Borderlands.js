@@ -1,5 +1,5 @@
 import React from "react";
-
+import {chakra, Box} from "@chakra-ui/react";
 import { FaCogs, FaBullhorn, FaPencilAlt } from 'react-icons/fa';
 
 import Layout from "../components/Layout.js"
@@ -14,6 +14,8 @@ import business_banner from "../images/business_banner_1200.png";
 import {newletters} from "../data/borderlands.js";
 
 const Borderlands = () => {
+    const PencilIcon = chakra(FaPencilAlt);
+
     return (
         <Layout>
             <img src={borderlands_banner} alt="Banner" className="banner" role="presentation"/>
@@ -38,9 +40,12 @@ const Borderlands = () => {
                             <div>
                                 For <strong>regular</strong> news and updates why not <strong>Sign up</strong> to receive a Borderlands Growth Deal Newsletter
                             </div>
-                            <button className="card-button">
-                                <FaPencilAlt/> Sign me up please
-                            </button>
+                            <chakra.a textDecoration="none" href="https://borderlandsgrowth.us18.list-manage.com/subscribe?u=ee804e84869be840d9dffd4db&id=15a1ddbeba">
+                                <button className="card-button">
+                                    <PencilIcon fontSize={36} m="auto"/> 
+                                    <Box>Sign me up please</Box>
+                                </button>
+                            </chakra.a>
                         </div>
                     </div>
                     <div className="title">Borderlands <strong>Newsletters</strong></div>
