@@ -13,6 +13,12 @@ const theme = extendTheme({
                 margin:"15px 0",
                 lineHeight: "normal"
             },
+            h3: {
+                fontSize: "28px",
+                margin:"15px 0",
+                lineHeight: "normal",
+                fontWeight: "200",
+            },
             p : {
                 fontSize: "18px",
                 margin:"10px 0",

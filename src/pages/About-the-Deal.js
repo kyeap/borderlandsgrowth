@@ -20,9 +20,9 @@ const DealPage = () => {
                 text = "is working together to deliver transformative change across the region to maximise the benefits of inclusive growth."
             />
             <div className="container">
-                <div className="title">
+                <h1>
                 About the Deal
-                </div>
+                </h1>
                 <p>
                     The Borderlands Inclusive Growth Deal is an integrated investment package, ensuring there is a balance between high profile place-based projects together with Borderlands-wide investment programmes that meet the needs and opportunities of the rural nature of the region. It will bring up to £450million of fresh investment into our region, delivering benefits for the long term.
                 </p>
@@ -30,14 +30,14 @@ const DealPage = () => {
                     The strategic approach includes five high profile projects which anchor the Borderlands Inclusive Growth Deal. These projects have been developed to have a transformational impact on their area as well as the wider regional economy and their strategic nature means they are cross-cutting in their impact and in many instances contribute to all four strategic themes. Equally important in this strategic approach are the Borderlands-wide investment programmes that are designed to ensure benefits can be realised across the whole of the Borderlands region.
                 </p>
                 <img src={deal_bottom} alt="The four strategic themes that will be explained further below" className="banner" tabIndex="0"/>
-                <div className="title">
+                <h2>
                     Four Strategic Themes:
-                </div>
+                </h2>
                 <div className="container-flex-deal">
                     <div className="container-deal">
-                        <p className="title sub"> 
+                        <h3> 
                             Improving Places
-                        </p>
+                        </h3>
                         <p>
                         This aims to revitalise places across the Borderlands region to attract people to live, work and visit by:
                         </p>
@@ -48,9 +48,9 @@ const DealPage = () => {
                         </ul>
                     </div>
                     <div className="container-deal">
-                        <div className="title sub">  
+                        <h3>  
                             Enabling Infrastructure
-                        </div>
+                        </h3>
                         <p>
                             This aims to invest in the infrastructure needed to support improvements in connectivity, helping people to access the region and addressing perceptions of poor connectivity by:
                         </p>
@@ -61,9 +61,9 @@ const DealPage = () => {
                         </ul>
                     </div>
                     <div className="container-deal">
-                        <div className="title sub">
+                        <h3>
                             Supporting business, innovation and skills
-                        </div>
+                        </h3>
                         <p> This aims to stimulate business growth to create a more diverse regional economy, recognising that innovation and skills are central to achieving this by</p>
                         <ul>
                            <li>Bringing forward strategic projects that will transform the role and perception of places in the region</li>
@@ -72,9 +72,9 @@ const DealPage = () => {
                         </ul>
                     </div>
                     <div className="container-deal">
-                        <div className="title sub">
+                        <h3>
                             Encouraging green growth
-                        </div>
+                        </h3>
                         <p>
                             This aims to capitalise on the green credentials of the Borderlands region and to facilitate decarbonisation and the creation of new high value jobs through supporting low carbon energy generation and carbon reduction scheme by:
                         </p>
@@ -89,21 +89,31 @@ const DealPage = () => {
                         </p>
                     </div>
                 </div>
-                <div className="title sub">
+                <h2>
                     Download Borderlands Inclusive Growth Deal Documents
-                </div>
-                <a href="../../BorderlandsInclusiveGrowthDealDealDocument2021-Signed.pdf">
-                    <Flex as="button" my={2} align="baseline">
-                        <Box mr={2}><FaFilePdf  color="red" fontSize="20px"/></Box>
-                        <Box><p>Borderlands Inclusive Growth Deal March 2021</p></Box>
-                    </Flex>
-                </a>
-                <a href="../../BorderlandsInclusiveGrowthDealsummaryMarch21.pdf">
-                    <Flex as="button" align="baseline">
-                        <Box mr={2}><FaFilePdf  color="red" fontSize="20px"/></Box>
-                        <Box> <p>Borderlands Inclusive Growth Deal summary March 21</p></Box>
-                    </Flex>
-                </a>
+                </h2>
+                <Flex my={2} align="baseline">
+                    <Box mr={2}><FaFilePdf  color="red" fontSize="20px"/></Box>
+                    <Box 
+                        as="a"
+                        target="_blank"
+                        href="../../BorderlandsInclusiveGrowthDealDealDocument2021-Signed.pdf"
+                        textDecoration="none"
+                    >
+                        <p>Borderlands Inclusive Growth Deal March 2021</p>
+                    </Box>
+                </Flex>
+                <Flex align="baseline">
+                    <Box mr={2}><FaFilePdf  color="red" fontSize="20px" target="_blank"/></Box>
+                    <Box 
+                        as="a" 
+                        target="_blank" 
+                        href="../../BorderlandsInclusiveGrowthDealsummaryMarch21.pdf"
+                        textDecoration="none"
+                    > 
+                        <p>Borderlands Inclusive Growth Deal summary March 21</p>
+                    </Box>
+                </Flex>
             </div>
         </Layout>
     );

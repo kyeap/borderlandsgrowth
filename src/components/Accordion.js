@@ -69,7 +69,7 @@ export const AccordionBorderlands = (props) => {
                                 padding="10px"
                                 margin= "10px 0"
                             >   
-                                <div>Click <a href={link}>here</a> to download the newsletter.</div>
+                                <div>Click <a href={link} target="_blank">here</a> to download the newsletter.</div>
                                 
                             </Box>
                         }
@@ -78,14 +78,16 @@ export const AccordionBorderlands = (props) => {
                             display="flex"
                             justifyContent="flex-end"
                         >
-                            <a href={link}>
-                                <Button 
-                                    background="rgb(96, 0, 128)"
-                                    color="white"
-                                >   
-                                    Read More
-                                </Button>
-                            </a>
+                            <Button 
+                                as="a" 
+                                href={link}
+                                target="_blank"
+                                background="rgb(96, 0, 128)"
+                                color="white"
+                                textDecoration="none"
+                            >   
+                                Read More
+                            </Button>
                         </Box>
                     </AccordionPanel>
                 </>
@@ -145,21 +147,22 @@ export const AccordionNews = (props) => {
                                 )
                             })}
                         </Box>
-                        <a href={downloadPath==""?link:downloadPath}>
-                            <Button
-                                border-top= "solid 3px #836098"
-                                padding= "30px"
-                                color= "#836098"
-                                fontSize= "24px"
-                                bg="white"
-                                w="100%"
-                                borderTop="solid 3px #836098"
-                                borderRadius="0"
-                                fontSize= "24px"
-                            >
-                                    Read More
-                            </Button>
-                        </a>
+                        <Button
+                            as="a"
+                            href={downloadPath==""?link:downloadPath}
+                            border-top= "solid 3px #836098"
+                            padding= "30px"
+                            color= "#836098"
+                            fontSize= "24px"
+                            bg="white"
+                            w="100%"
+                            borderTop="solid 3px #836098"
+                            borderRadius="0"
+                            fontSize= "24px"
+                            textDecoration="none"
+                        >
+                                Read More
+                        </Button>
                     </AccordionPanel>
                 </>
             )}

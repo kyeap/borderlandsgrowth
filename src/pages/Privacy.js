@@ -12,7 +12,7 @@ const Privacy = () => {
                 applies to the Borderlands site and governs data collection and usage.
                 By using the Borderlands site, you consent to the data practices described
                 in this statement.</p>
-                <p><span>Collection of your Personal Information</span></p>
+                <h2>Collection of your Personal Information</h2>
                 <p>Borderlands collects personally identifiable information, such as your email
                 address, name, home or work address or telephone number. Borderlands also
                 collects anonymous demographic information, which is not unique to you, such as
@@ -32,7 +32,7 @@ const Privacy = () => {
                 Web sites collect, use and share your information. Borderlands is not responsible
                 for the privacy statements or other content on Web sites outside of the Borderlands
                 and Borderlands family of Web sites.</p>
-                <p><span>Use of your Personal Information</span></p>
+                <h2>Use of your Personal Information</h2>
                 <p>Borderlands collects and uses your personal information to operate the Borderlands
                 Web site and deliver the services you have requested. Borderlands also uses
                 your personally identifiable information to inform you of other products or services
@@ -62,7 +62,7 @@ const Privacy = () => {
                 served on Borderlands or the site; (b) protect and defend the rights or
                 property of Borderlands; and, (c) act under exigent circumstances to protect
                 the personal safety of users of Borderlands, or the public.</p>
-                <p><span>Use of Cookies</span></p>
+                <h2>Use of Cookies</h2>
                 <p>The Borderlands Web site use "cookies" to help you personalize your online
                 experience. A cookie is a text file that is placed on your hard disk by a Web page
                 server. Cookies cannot be used to run programs or deliver viruses to your computer.
@@ -81,19 +81,19 @@ const Privacy = () => {
                 accept cookies, but you can usually modify your browser setting to decline cookies
                 if you prefer. If you choose to decline cookies, you may not be able to fully experience
                 the interactive features of the Borderlands services or Web sites you visit.</p>
-                <p><span>Security of your Personal Information</span></p>
+                <h2>Security of your Personal Information</h2>
                 <p>Borderlands secures your personal information from unauthorized access,
                 use or disclosure. Borderlands secures the personally identifiable information
                 you provide on computer servers in a controlled, secure environment, protected from
                 unauthorized access, use or disclosure. When personal information (such as a credit
                 card number) is transmitted to other Web sites, it is protected through the use
                 of encryption, such as the Secure Socket Layer (SSL) protocol.</p>
-                <p><span>Changes to this Statement</span></p>
+                <h2>Changes to this Statement</h2>
                 <p>Borderlands will occasionally update this Statement of Privacy to reflect
                 company and customer feedback. Borderlands encourages you to periodically
                 review this Statement to be informed of how Borderlands is protecting your
                 information.</p>
-                <p><span>Contact Information</span></p>
+                <h2>Contact Information</h2>
                 <p>Borderlands welcomes your comments regarding this Statement of Privacy.
                 If you believe that Borderlands has not adhered to this Statement, please
                 contact Borderlands at <a href="mailto:stuart.fraser@carlisle.gov.uk">stuart.fraser@carlisle.gov.uk</a>.

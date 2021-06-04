@@ -47,17 +47,6 @@ ul {
     margin: 0 auto;
 }
 
-.title {
-    font-size: 30px;
-    margin: 10px 0;
-    line-height: 40px;
-}
-
-.title.sub {
-    font-weight: 200;
-    margin: 30px 0 0 0;
-}
-
 /************* Borderland page ************/
 
 .card-container {
@@ -177,24 +166,22 @@ ul {
     border-top: 1px solid rgba(218, 222, 225, 0.85);
     background: none repeat scroll 0 0 #EEEEEE;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     line-height: 22px;
     padding: 30px;
 }
 
-
-@media only screen and (max-width: 1024px) {
-    .footer-wrapper {
-        width: 100%;
-        position: absolute;
-        bottom: -80px;
-    } 
-}
-
+/* Mobile stylings */
 @media only screen and (max-width: 425px) {
     .footer-wrapper {
         position: relative;
+        bottom: -10px;
     } 
+
+    .footer-container { 
+        justify-content: flex-end;
+    }
 }
 
 
@@ -268,13 +255,17 @@ ul {
     .footer-container {
         padding-right: 20px;
     }
+
+    .footer-wrapper {
+        width: 100%;
+        position: absolute;
+        bottom: -100px;
+    } 
 }
 
 /* screen size bigger 1024px - laptop */
 @media only screen and (min-width: 1440px) {    
     .footer-wrapper {
         width: 80%;
-        bottom: -80px;
-        position: absolute;
     }
 }

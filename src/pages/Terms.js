@@ -6,17 +6,17 @@ const Terms = () => {
     return (
         <Layout> 
             <div className="container">
-                <p><span>AGREEMENT BETWEEN USER AND Borderlands</span></p>
+                <h1>AGREEMENT BETWEEN USER AND Borderlands</h1>
                 <p>The Borderlands Web Site is comprised of various Web pages operated by Borderlands.</p>
                 <p>The Borderlands Web Site is offered to you conditioned on your acceptance
                 without modification of the terms, conditions, and notices contained herein. Your
                 use of the Borderlands Web Site constitutes your agreement to all such terms,
                 conditions, and notices.</p>
-                <p><span>MODIFICATION OF THESE TERMS OF USE</span></p>
+                <h2>MODIFICATION OF THESE TERMS OF USE</h2>
                 <p>Borderlands reserves the right to change the terms, conditions, and notices
                 under which the Borderlands Web Site is offered, including but not limited
                 to the charges associated with the use of the Borderlands Web Site.</p>
-                <p><span>LINKS TO THIRD PARTY SITES</span></p>
+                <h2>LINKS TO THIRD PARTY SITES</h2>
                 <p>The Borderlands Web Site may contain links to other Web Sites ("Linked Sites").
                 The Linked Sites are not under the control of Borderlands and Borderlands
                 is not responsible for the contents of any Linked Site, including without limitation
@@ -25,7 +25,7 @@ const Terms = () => {
                 received from any Linked Site. Borderlands is providing these links to you
                 only as a convenience, and the inclusion of any link does not imply endorsement
                 by Borderlands of the site or any association with its operators.</p>
-                <p><span>NO UNLAWFUL OR PROHIBITED USE</span></p>
+                <h2>NO UNLAWFUL OR PROHIBITED USE</h2>
                 <p>As a condition of your use of the Borderlands Web Site, you warrant to Borderlands
                 that you will not use the Borderlands Web Site for any purpose that is unlawful
                 or prohibited by these terms, conditions, and notices. You may not use the Borderlands
@@ -34,7 +34,7 @@ const Terms = () => {
                 Web Site. You may not obtain or attempt to obtain any materials or information through
                 any means not intentionally made available or provided for through the Borderlands
                 Web Sites.</p>
-                <p><span>USE OF COMMUNICATION SERVICES</span></p>
+                <h2>USE OF COMMUNICATION SERVICES</h2>
                 <p>The Borderlands Web Site may contain bulletin board services, chat areas,
                 news groups, forums, communities, personal web pages, calendars, and/or other message
                 or communication facilities designed to enable you to communicate with the public
@@ -85,8 +85,8 @@ const Terms = () => {
                 <p>Materials uploaded to a Communication Service may be subject to posted limitations
                 on usage, reproduction and/or dissemination. You are responsible for adhering to
                 such limitations if you download the materials.</p>
-                <p><span>MATERIALS PROVIDED TO Borderlands OR POSTED AT ANY Borderlands
-                    WEB SITE</span></p>
+                <h2>MATERIALS PROVIDED TO Borderlands OR POSTED AT ANY Borderlands
+                    WEB SITE</h2>
                 <p>Borderlands does not claim ownership of the materials you provide to Borderlands
                 (including feedback and suggestions) or post, upload, input or submit to any Borderlands
                 Web Site or its associated services (collectively "Submissions"). However, by posting,
@@ -104,7 +104,7 @@ const Terms = () => {
                 and represent that you own or otherwise control all of the rights to your Submission
                 as described in this section including, without limitation, all the rights necessary
                 for you to provide, post, upload, input or submit the Submissions.</p>
-                <p><span>LIABILITY DISCLAIMER</span></p>
+                <h2>LIABILITY DISCLAIMER</h2>
                 <p>THE INFORMATION, SOFTWARE, PRODUCTS, AND SERVICES INCLUDED IN OR AVAILABLE THROUGH
                 THE Borderlands WEB SITE MAY INCLUDE INACCURACIES OR TYPOGRAPHICAL ERRORS.
                 CHANGES ARE PERIODICALLY ADDED TO THE INFORMATION HEREIN. Borderlands AND/OR
@@ -138,7 +138,7 @@ const Terms = () => {
                 OF USE, YOUR SOLE AND EXCLUSIVE REMEDY IS TO DISCONTINUE USING THE Borderlands
                 WEB SITE.</p>
                 <p>SERVICE CONTACT : stuart.fraser@carlisle.gov.uk</p>
-                <p><span>TERMINATION/ACCESS RESTRICTION</span></p>
+                <h2>TERMINATION/ACCESS RESTRICTION</h2>
                 <p>Borderlands reserves the right, in its sole discretion, to terminate your
                 access to the Borderlands Web Site and the related services or any portion
                 thereof at any time, without notice. GENERAL To the maximum extent permitted by
@@ -170,17 +170,17 @@ const Terms = () => {
                 to the same conditions as other business documents and records originally generated
                 and maintained in printed form. It is the express wish to the parties that this
                 agreement and all related documents be drawn up in English.</p>
-                <p><span>COPYRIGHT AND TRADEMARK NOTICES:</span></p>
+                <h2>COPYRIGHT AND TRADEMARK NOTICES:</h2>
                 <p>All contents of the Borderlands Web Site are:  and/or
                 its suppliers. All rights reserved.</p>
-                <p><span>TRADEMARKS</span></p>
+                <h2>TRADEMARKS</h2>
                 <p>The names of actual companies and products mentioned herein may be the trademarks
                 of their respective owners.</p>
                 <p>The example companies, organizations, products, people and events depicted herein
                 are fictitious. No association with any real company, organization, product, person,
                 or event is intended or should be inferred.</p>
                 <p>Any rights not expressly granted herein are reserved.</p>
-                <p><span>NOTICES AND PROCEDURE FOR MAKING CLAIMS OF COPYRIGHT INFRINGEMENT</span></p>
+                <h2>NOTICES AND PROCEDURE FOR MAKING CLAIMS OF COPYRIGHT INFRINGEMENT</h2>
                 <p>Pursuant to Title 17, United States Code, Section 512(c)(2), notifications of claimed
                 copyright infringement under United States copyright law should be sent to Service
                 Provider's Designated Agent. ALL INQUIRIES NOT RELEVANT TO THE FOLLOWING PROCEDURE

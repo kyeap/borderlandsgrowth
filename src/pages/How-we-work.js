@@ -11,7 +11,7 @@ const HowWeWork = () => {
     return (
         <Layout>
             <div className="container">
-                <Box as="h1" className="title">How We Work</Box>
+                <h1>How We Work</h1>
 
                 <p>The five councils in the Borderlands Partnership have signed a legally binding Collaboration Agreement which forms the basis of our governance plan, setting out the arrangements for the oversight and delivery for the Deal, to ensure that a robust governance framework is in place. Clear governance provides assurance to the UK Government, Scottish Government, Borderlands local authorities and the wider Borderlands regional partners that there is open and transparent decision making and project delivery.</p>
                 <p>Central to the governance arrangements is the <strong>Partnership Board</strong>, responsible for oversight and decision making relating to delivery of the Deal programme of investment. The Board is supported by Chief Executives, Chief Economic Officers and Finance Officers from the partner authorities.</p>
@@ -33,12 +33,10 @@ const HowWeWork = () => {
                 <Box as="h2" className="title sub">
                     Download Documents
                 </Box>
-                <a href="../../BorderlandsEconomicForumMembersMay2021.pdf">
-                    <Flex as="button" my={2} align="baseline">
-                        <Box mr={2}><FaFilePdf  color="red" fontSize="20px"/></Box>
-                        <Box><p>Borderlands Economic Forum Members May 2021</p></Box>
-                    </Flex>
-                </a>
+                <Flex as="button" my={2} align="baseline">
+                    <Box mr={2}><FaFilePdf  color="red" fontSize="20px"/></Box>
+                    <Box as="a" href="../../BorderlandsEconomicForumMembersMay2021.pdf" textDecoration="none"><p>Borderlands Economic Forum Members May 2021</p></Box>
+                </Flex>
             </div>  
         </Layout>
     );

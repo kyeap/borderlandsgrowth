@@ -17,8 +17,8 @@ const ProjectProgrammes = () => {
                 text = "With projects and programmes located across the Borderlands, our strategic approach means our projects reinforce each other to transform our area. Some are in distinct locations making the most of an existing asset or creating something new whilst others will be delivered across the full area as part of the overarching Deal themes."
             />
             <div className="container">
-                <p className="title sub">The projects and programmes included in the Deal&nbsp;are shown in this map of our region</p>
-                <img src={Map} alt="Map of the region" className="banner" role="presentation"/>
+                <h2>The projects and programmes included in the Deal&nbsp;are shown in this map of our region</h2>
+                <img src={Map} alt="Map of our region" className="banner" role="presentation"/>
                 <h2><strong>&pound;30m of advanced funding has already been released, for projects which have achieved full business case sign off. These projects are:</strong></h2>
 
                 <ul>
