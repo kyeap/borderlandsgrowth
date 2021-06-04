@@ -9,7 +9,7 @@ export const tableList = [
         },
         {title:"Ambitious plans for Carlisle Station development are on track",
          textArr:["Exciting plans to transform Carlisle Railway Station and its surrounds look set to take a major step forward after Government gave the green light to funding for the project.","Cumbria County Council&rsquo;s Cabinet have today welcomed confirmation of &pound;20m funding through the Borderlands Inclusive Growth Deal after the business case for the project secured Government support.&nbsp;"],
-         downloadPath:""
+         downloadPath:"https://www.yourcumbria.org/News/2020/ambitiousplansforcarlislestationdevelopmentareontrack.aspx"
         },
         {
          title:"News Release 26 / 11 / 20",

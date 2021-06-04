@@ -43,10 +43,10 @@ const Header = () => {
     const location = useLocation();
     return (
         <header>  
-        <div className="login-nav desktop-only">
+        {/* <div className="login-nav desktop-only">
             <div className="">info@growth</div>
             <div>login</div>
-        </div>
+        </div> */}
         <a className="navigate-to-main-content" href='#main'>Skip to main content</a>
         <div className="desktop-nav-container desktop-only">
             <Link to="/"><img src={logo} alt="logo"/></Link>

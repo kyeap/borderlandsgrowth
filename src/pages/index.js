@@ -105,13 +105,13 @@ const Home = () => {
         </div>
       </div>
       <div className="logo-container">
-        <img role="presentation" src={CCClogo} alt="ccc logo" />
-        <img role="presentation" src={dumfriesNgalloway} alt="dumfries logo" />
-        <img role="presentation" src={CumbriaCountyCouncillogo} alt="cumbria logo" />
-        <img role="presentation" src={Scottish_Government_logo} alt="scottish goverment logo" />
-        <img role="presentation" src={Scottish_border_logo} alt="scottish boarder logo" />
-        <img role="presentation" src={UKGovernmentLogo} alt="uk goverment logo" />
-        <img role="presentation" src={NCC_logo} alt="Ncc logo" />
+        <a href="https://www.carlisle.gov.uk/"><img role="presentation" src={CCClogo} alt="ccc logo" /></a>
+        <a href="https://www.cumbria.gov.uk/"><img role="presentation" src={CumbriaCountyCouncillogo} alt="cumbria logo" /></a>
+        <a href="https://www.scotborders.gov.uk/"><img role="presentation" src={Scottish_border_logo} alt="scottish boarder logo" /></a>
+        <a href="https://www.northumberland.gov.uk/Home.aspx"><img role="presentation" src={NCC_logo} alt="Ncc logo" /></a>
+        <a href="https://www.dumgal.gov.uk/"><img role="presentation" src={dumfriesNgalloway} alt="dumfries logo" /></a>
+        <a href="https://www.gov.scot/"><img role="presentation" src={Scottish_Government_logo} alt="scottish goverment logo" /></a>
+        <a href="https://www.gov.uk/"><img role="presentation" src={UKGovernmentLogo} alt="uk goverment logo" /></a>
       </div>
     </Layout>
   );
