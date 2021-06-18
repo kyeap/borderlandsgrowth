@@ -1,4 +1,8 @@
 export const tableList = [
+        {title:"First full meeting of the Borderlands Inclusive Growth Deal Partnership Board",
+        textArr:['The first full meeting of the Borderlands Inclusive Growth Deal Partnership Board took place on Friday 18th June, at 2.30pm. The Partnership Board is central to the governance of the Deal. It is responsible for oversight and decision making relating to delivery of the Deal programme of investment. The Board is supported by the Borderlands Economic Forum, and the Chief Executives, Chief Economic Officers and Finance Officers from the partner authorities. For full information about the governance arrangements, see our "How we work" page','The public part of the meeting was livestreamed and the meeting papers are available in the "Read More" button below. The minutes from the meeting will be published on the "How we work" page on this website, once they are approved at the next Board meeting in September.'],
+        downloadPath:"../../BorderlandsPartnershipBoardMeeting18June2021.pdf"
+        },
         {title:"Business experts join the new Borderlands Inclusive Growth Deal Economic Forum",
         textArr:["The new business-led Borderlands Economic Forum is now in place, to support delivery of the Borderlands Inclusive Growth Deal. Working in support of the Borderlands Partnership Board, the ten private business representatives on the Economic Forum will bring commercial experience to complement public sector stakeholders from the South of Scotland Enterprise, Skills Development Scotland, and the Cumbria and North East Local Enterprise Partnerships."],
         downloadPath:"../../BorderlandsPressRelease-NewEconomicForum.pdf"
@@ -8,7 +12,7 @@ export const tableList = [
         downloadPath:"../../BorderlandsPressRelease-Dealsigningfinalversionforissue.docx"
         },
         {title:"Ambitious plans for Carlisle Station development are on track",
-         textArr:["Exciting plans to transform Carlisle Railway Station and its surrounds look set to take a major step forward after Government gave the green light to funding for the project.","Cumbria County Council&rsquo;s Cabinet have today welcomed confirmation of &pound;20m funding through the Borderlands Inclusive Growth Deal after the business case for the project secured Government support.&nbsp;"],
+         textArr:["Exciting plans to transform Carlisle Railway Station and its surrounds look set to take a major step forward after Government gave the green light to funding for the project.","Cumbria County Council & Cabinet have today welcomed confirmation of £20m funding through the Borderlands Inclusive Growth Deal after the business case for the project secured Government support."],
          downloadPath:"https://www.yourcumbria.org/News/2020/ambitiousplansforcarlislestationdevelopmentareontrack.aspx"
         },
         {

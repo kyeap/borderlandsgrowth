@@ -26,6 +26,7 @@ const HowWeWork = () => {
                     <li>Jack Stopforth MBE MA, Chair Borderlands Economic Forum</li>
                 </ul>
 
+                <p>The first full Partnership Board meeting took place on Friday 18 June, at 2.30pm. The meeting was live streamed and the minutes to the meeting will be published on this page once they are approved at the next Board meeting in September. Click <a className="anchor_style" href="../../BorderlandsPartnershipBoardMeeting18June2021.pdf">here</a> to see the agenda and papers for the meeting. </p>
                 <p>The Borderlands <strong>Economic Forum</strong> is an important part of our Deal. The remit of the Economic Forum is to provide an opportunity for wider stakeholders - with a particular focus on the economic development agencies and the business community to contribute towards maximising the impact of the Growth Deal in stimulating inclusive economic growth within the area served by the Growth Deal.</p>
                 <p><em>Future minutes of the Partnership Board and Economic Forum meetings will be posted here.</em></p>
                 <p><strong>Borderlands PMO </strong>- The Borderlands Project Management Office is in place to oversee the development, delivery and effective day to day management of the Deal. The team will procure specialist appraisal support where necessary to support its work. Please email <a className="anchor_style" href="mailto:info@borderlandsgrowth.com">info@borderlandsgrowth.com</a> to speak with a member of the team.</p>
@@ -33,6 +34,10 @@ const HowWeWork = () => {
                 <h2>
                     Download Documents
                 </h2>
+                <Flex as="button" my={2} align="baseline">
+                    <Box mr={2}><FaFilePdf  color="red" fontSize="20px"/></Box>
+                    <Box as="a" href="../../BorderlandsPartnershipBoardMeeting18June2021.pdf" textDecoration="none"><p>Borderlands Partnership Board Meeting 18 June 2021</p></Box>
+                </Flex>
                 <Flex as="button" my={2} align="baseline">
                     <Box mr={2}><FaFilePdf  color="red" fontSize="20px"/></Box>
                     <Box as="a" href="../../BorderlandsEconomicForumMembersMay2021.pdf" textDecoration="none"><p>Borderlands Economic Forum Members May 2021</p></Box>
