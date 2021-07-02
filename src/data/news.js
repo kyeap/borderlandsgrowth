@@ -1,4 +1,8 @@
 export const tableList = [
+        {title:"UK Government Minister hears of progress across the Borderlands Inclusive Growth Deal",
+        textArr:['The UK Government Minister for growth deals in Scotland, Iain Stewart MP, has visited Carlisle to meet representatives of the Borderlands Inclusive Growth Deal and find out about how the Deal is helping to deliver growth and improved connectivity to the entire region.','The £452 million Deal is a regional investment programme jointly supported by the UK and Scottish governments and local partners.'],
+        downloadPath:"../../BorderlandsPressRelease_UKGovernmentminisitervisittoCarlisle.pdf"
+        },
         {title:"First full meeting of the Borderlands Inclusive Growth Deal Partnership Board",
         textArr:['The first full meeting of the Borderlands Inclusive Growth Deal Partnership Board took place on Friday 18th June, at 2.30pm. The Partnership Board is central to the governance of the Deal. It is responsible for oversight and decision making relating to delivery of the Deal programme of investment. The Board is supported by the Borderlands Economic Forum, and the Chief Executives, Chief Economic Officers and Finance Officers from the partner authorities. For full information about the governance arrangements, see our "How we work" page','The public part of the meeting was livestreamed and the meeting papers are available in the "Read More" button below. The minutes from the meeting will be published on the "How we work" page on this website, once they are approved at the next Board meeting in September.'],
         downloadPath:"../../BorderlandsPartnershipBoardMeeting18June2021.pdf"
