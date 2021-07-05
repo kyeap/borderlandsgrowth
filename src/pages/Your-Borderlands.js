@@ -13,11 +13,15 @@ import business_banner from "../images/business_banner_1200.png";
 
 import {newletters} from "../data/borderlands.js";
 
+import {detect} from 'detect-browser';
+
 const Borderlands = () => {
     const PencilIcon = chakra(FaPencilAlt);
+    const browser = detect();
 
     return (
         <Layout>
+            {browser && browser.name == "ie" && <div>Internet explore is not supported for this page, please upgrade your browser.</div>}    
             <img src={borderlands_banner} alt="Banner" className="banner" role="presentation"/>
             <div className="container-flex">
                 <div className="home-container-column-borderlands-left">
