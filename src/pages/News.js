@@ -2,13 +2,21 @@ import React, {useState} from "react";
 import {Table, Pagination} from "../components/Table.js";
 import {tableList} from "../data/news";
 import {FaRss } from 'react-icons/fa';
-import {detect} from 'detect-browser';
 
 import Layout from "../components/Layout.js"
 import {AccordionNews} from "../components/Accordion.js";
 import {Accordion} from "@chakra-ui/accordion";
 import PaginationBlock from "../components/Pagination";
+
+// to support IE11
+import {detect} from 'detect-browser';
 import 'react-app-polyfill/ie11';
+import "core-js/features/array/find";
+import "core-js/features/object/assign";
+import "core-js/features/promise";
+import "core-js/features/string/ends-with";
+import "core-js/features/symbol/for";
+import "core-js/features/weak-set";
 
 const News = () => {
     const [page, setPage] = useState(0);

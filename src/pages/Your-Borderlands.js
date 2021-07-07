@@ -15,6 +15,12 @@ import {newletters} from "../data/borderlands.js";
 
 import {detect} from 'detect-browser';
 import 'react-app-polyfill/ie11';
+import "core-js/features/array/find";
+import "core-js/features/object/assign";
+import "core-js/features/promise";
+import "core-js/features/string/ends-with";
+import "core-js/features/symbol/for";
+import "core-js/features/weak-set";
 
 const Borderlands = () => {
     const PencilIcon = chakra(FaPencilAlt);
