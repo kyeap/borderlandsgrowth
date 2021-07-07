@@ -8,6 +8,7 @@ import Layout from "../components/Layout.js"
 import {AccordionNews} from "../components/Accordion.js";
 import {Accordion} from "@chakra-ui/accordion";
 import PaginationBlock from "../components/Pagination";
+import 'react-app-polyfill/ie11';
 
 const News = () => {
     const [page, setPage] = useState(0);

@@ -14,6 +14,7 @@ import business_banner from "../images/business_banner_1200.png";
 import {newletters} from "../data/borderlands.js";
 
 import {detect} from 'detect-browser';
+import 'react-app-polyfill/ie11';
 
 const Borderlands = () => {
     const PencilIcon = chakra(FaPencilAlt);
