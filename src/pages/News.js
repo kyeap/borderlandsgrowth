@@ -8,23 +8,11 @@ import {AccordionNews} from "../components/Accordion.js";
 import {Accordion} from "@chakra-ui/accordion";
 import PaginationBlock from "../components/Pagination";
 
-// to support IE11
-import {detect} from 'detect-browser';
-import 'react-app-polyfill/ie11';
-import "core-js/features/array/find";
-import "core-js/features/object/assign";
-import "core-js/features/promise";
-import "core-js/features/string/ends-with";
-import "core-js/features/symbol/for";
-import "core-js/features/weak-set";
-
 const News = () => {
     const [page, setPage] = useState(0);
-    const browser = detect();
 
     return (
         <Layout>
-            {browser && browser.name == "ie" && <div>Internet explore is not supported for this page, please upgrade your browser.</div>}
             {/* not using BannerText here as parse string contain HTML Tags */}
             <div className="bannerText-container">
                 <div className="bannerText-wrapper">

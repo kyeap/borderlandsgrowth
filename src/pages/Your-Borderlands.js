@@ -13,22 +13,12 @@ import business_banner from "../images/business_banner_1200.png";
 
 import {newletters} from "../data/borderlands.js";
 
-import {detect} from 'detect-browser';
-import 'react-app-polyfill/ie11';
-import "core-js/features/array/find";
-import "core-js/features/object/assign";
-import "core-js/features/promise";
-import "core-js/features/string/ends-with";
-import "core-js/features/symbol/for";
-import "core-js/features/weak-set";
-
 const Borderlands = () => {
     const PencilIcon = chakra(FaPencilAlt);
-    const browser = detect();
+    // const browser = detect();
 
     return (
         <Layout>
-            {browser && browser.name == "ie" && <div>Internet explore is not supported for this page, please upgrade your browser.</div>}    
             <img src={borderlands_banner} alt="Banner" className="banner" role="presentation"/>
             <div className="container-flex">
                 <div className="home-container-column-borderlands-left">
